@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: javax.validation:validation-api:2.0.0.CR3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.0.CR3/7d48f8a874fc9e9d824104c012761b6a41151e39/validation-api-2.0.0.CR3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.0.CR3/f6ec229c9f05df255a3758666c8aa0a24a5d690b/validation-api-2.0.0.CR3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,154 @@
+group 'org.itzxs'
+version '1.0-SNAPSHOT'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
+    distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
+}
+
+repositories {
+    mavenCentral()
+}
+
+subprojects {
+
+    //添加插件
+    apply plugin: 'java'
+    apply plugin: 'war'
+
+//编码环境jdk版本
+    sourceCompatibility = 1.8
+//编译时jdk版本
+    targetCompatibility = 1.8
+
+//仓库的配置
+    repositories {
+        //配置私服
+        //maven {url "http://192.168.31.200:8081/nexus/content/groups/public/"}
+        //maven中央仓库
+        mavenCentral()
+    }
+
+    //配置外部属性
+    ext {
+        spring_version = "4.0.6.RELEASE"
+    }
+
+//依赖的配置
+    dependencies {
+
+//    和Maven类似，gradle导入依赖包也可以定义其作用的生命周期：
+//    compile：编译时必须。
+//    runtime：运行时必须，包括编译时。
+//    testCompile：测试编译时必须。
+//    testRuntime：测试运行时必须，包括编译时。
+//    注：此外配置依赖包，还可以模块化配置、导入list、配置是否传递等。
+
+        //单元测试
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+
+        //servlet依赖
+        compile "javax.servlet:servlet-api:3.0-alpha-1"
+        compile "javax:javaee-api:7.0"
+        compile "javax.servlet.jsp:jsp-api:2.2"
+
+        //jstl标签库
+        compile "taglibs:standard:1.1.2"
+        compile "javax.servlet:jstl:1.2"
+
+        //公共资源包
+        compile "commons-logging:commons-logging:1.2"
+        compile "commons-lang:commons-lang:2.6"
+        compile "org.apache.commons:commons-collections4:4.0"
+        compile "commons-beanutils:commons-beanutils:1.8.3"
+        compile "commons-dbcp:commons-dbcp:1.4"
+        compile "commons-pool:commons-pool:1.6"
+        compile "commons-codec:commons-codec:1.8"
+
+        //文件上传
+        compile "commons-fileupload:commons-fileupload:1.2.2"
+        compile "commons-io:commons-io:2.4"
+
+        //AspectJ（切点表达式）
+        compile "org.aspectj:aspectjrt:1.7.4"
+        compile "org.aspectj:aspectjweaver:1.7.4"
+
+        //springmvc + Spring Configuration
+        compile "org.springframework:spring-web:$spring_version"
+        compile "org.springframework:spring-webmvc:$spring_version"
+        compile "org.springframework:spring-aop:$spring_version"
+        compile "org.springframework:spring-aspects:$spring_version"
+        compile "org.springframework:spring-beans:$spring_version"
+        compile "org.springframework:spring-context:$spring_version"
+        compile "org.springframework:spring-context-support:$spring_version"
+        compile "org.springframework:spring-core:$spring_version"
+        compile "org.springframework:spring-expression:$spring_version"
+        compile "org.springframework:spring-jdbc:$spring_version"
+        compile "org.springframework:spring-messaging:$spring_version"
+        compile "org.springframework:spring-orm:$spring_version"
+        compile "org.springframework:spring-tx:$spring_version"
+        compile "org.springframework:spring-test:$spring_version"
+
+        //<!--date converter-->
+        compile "joda-time:joda-time:2.8.2"
+        //MyBatis
+        compile "org.mybatis:mybatis:3.1.1"
+        //mybatis spring 插件
+        compile "org.mybatis:mybatis-spring:1.2.2"
+
+        //数据库驱动
+        compile "mysql:mysql-connector-java:5.1.25"
+
+
+        //连接池
+        compile "com.alibaba:druid:1.0.12"
+
+        //格式化对象，方便日志输出
+        compile "com.alibaba:fastjson:1.1.41"
+
+        //json
+        compile "com.google.code.gson:gson:2.2.4"
+
+        compile "org.slf4j:slf4j-api:1.7.7"
+        compile "org.slf4j:slf4j-log4j12:1.7.7"
+
+        //log4j
+        compile "log4j:log4j:1.2.17"
+
+        compile "cglib:cglib-nodep:3.1"
+
+        compile "javax.validation:validation-api:1.0.0.GA"
+
+//        compile "org.ow2.util.bundles:hibernate-validator-4.3.1.Final:1.0.0"
+
+        compile "javax.validation:validation-api:2.0.0.CR3"
+
+        compile "javax.el:javax.el-api:2.2.4"
+
+        compile "com.fasterxml.jackson.core:jackson-core:2.3.2"
+        compile "com.fasterxml.jackson.core:jackson-annotations:2.3.2"
+        compile "com.fasterxml.jackson.core:jackson-databind:2.3.2"
+        compile "org.codehaus.jackson:jackson-mapper-asl:1.9.13"
+
+        compile "org.apache.poi:poi:3.9"
+        compile "org.apache.poi:poi-ooxml:3.13"
+
+        compile "net.sourceforge.jexcelapi:jxl:2.6.10"
+        compile "org.jdom:jdom:2.0.2"
+
+        compile "net.sf.ehcache:ehcache:2.10.0"
+
+        //<!--tomcat jdbc pool-->
+        compile "org.apache.tomcat:tomcat-jdbc:7.0.62"
+        compile "org.apache.tomcat:tomcat-juli:7.0.62"
+
+        compile "org.apache.httpcomponents:httpclient:4.3.3"
+        compile "org.apache.httpcomponents:httpmime:4.3.3"
+
+        compile "org.jsoup:jsoup:1.9.2"
+        compile "org.apache.httpcomponents:httpclient:4.5.2"
+        compile "dom4j:dom4j:1.6.1"
+
+    }
+
+}
