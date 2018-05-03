@@ -23,7 +23,8 @@ public class BookController {
     @ResponseBody
     public ModelAndView addBook(){
         ModelAndView mv = new ModelAndView();
-        bookService.addBook("http://www.biquge.tw/0_5/");
+//        bookService.addBook("http://www.biquge.tw/0_5/");
+        mv.setViewName("/demo");
         return mv;
     }
 }

@@ -10,7 +10,18 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="dao_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../util/lib/json_simple.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../entity/lib/json_simple.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Gradle: javax.servlet:servlet-api:3.0-alpha-1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:4.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: javax:javaee-api:7.0" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet.jsp:jsp-api:2.2" level="project" />
     <orderEntry type="library" name="Gradle: taglibs:standard:1.1.2" level="project" />
@@ -18,7 +29,6 @@
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-collections4:4.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-core:4.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: commons-beanutils:commons-beanutils:1.8.3" level="project" />
     <orderEntry type="library" name="Gradle: commons-dbcp:commons-dbcp:1.4" level="project" />
     <orderEntry type="library" name="Gradle: commons-pool:commons-pool:1.6" level="project" />
@@ -81,6 +91,15 @@
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.9" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.poi:poi:3.13" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../dao/lib/json_simple.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
   <component name="TestModuleProperties" production-module="dao_main" />
 </module>

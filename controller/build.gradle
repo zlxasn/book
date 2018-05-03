@@ -17,4 +17,5 @@ dependencies {
     compile project(":entity")
     compile project(":service")
     compile project(":dao")
+    compile files('/lib/json_simple.1.1.jar')
 }

@@ -21,32 +21,46 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.9.2" level="project" />
-    <orderEntry type="library" name="Gradle: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../util/lib/json_simple.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../entity/lib/json_simple.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-juli:7.0.62" level="project" />
+    <orderEntry type="library" name="Gradle: javax.activation:activation:1.1" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet:servlet-api:3.0-alpha-1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpmime:4.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: javax:javaee-api:7.0" level="project" />
+    <orderEntry type="library" name="Gradle: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet.jsp:jsp-api:2.2" level="project" />
     <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.0.CR3" level="project" />
     <orderEntry type="library" name="Gradle: dom4j:dom4j:1.6.1" level="project" />
-    <orderEntry type="library" name="Gradle: javax:javaee-api:7.0" level="project" />
+    <orderEntry type="library" name="Gradle: taglibs:standard:1.1.2" level="project" />
     <orderEntry type="module" module-name="util_main" />
-    <orderEntry type="library" name="Gradle: javax.servlet.jsp:jsp-api:2.2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:jstl:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
     <orderEntry type="module" module-name="entity_main" />
-    <orderEntry type="library" name="Gradle: taglibs:standard:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="module" module-name="service_main" />
     <orderEntry type="module" module-name="dao_main" />
     <orderEntry type="library" name="Gradle: com.sun.mail:javax.mail:1.5.0" level="project" />
-    <orderEntry type="library" name="Gradle: javax.servlet:jstl:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
-    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
-    <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-collections4:4.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: commons-beanutils:commons-beanutils:1.8.3" level="project" />
     <orderEntry type="library" name="Gradle: commons-dbcp:commons-dbcp:1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: commons-pool:commons-pool:1.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-fileupload:commons-fileupload:1.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.3.2" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.9" level="project" />
@@ -86,11 +100,35 @@
     <orderEntry type="library" name="Gradle: org.jdom:jdom:2.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.poi:poi-ooxml-schemas:3.13" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.ehcache:ehcache:2.10.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-juli:7.0.62" level="project" />
     <orderEntry type="library" name="Gradle: xml-apis:xml-apis:1.0.b2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-jdbc:7.0.62" level="project" />
-    <orderEntry type="library" name="Gradle: javax.activation:activation:1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpmime:4.3.3" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../dao/lib/json_simple.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../service/lib/json_simple.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../controller/lib/json_simple.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="json_simple-1.1" level="project" />
   </component>
 </module>
