@@ -2,275 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a25c27-8c77-4dc9-a47d-cbcbd3b7c360" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/lib/json_simple-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/bin/LitJSON.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/lib/commons-fileupload-1.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/lib/commons-io-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/lib/json_simple-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/100.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/102.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/103.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/104.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/105.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/106.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/107.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/108.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/109.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/110.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/111.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/112.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/113.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/114.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/115.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/116.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/117.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/118.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/119.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/120.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/121.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/122.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/123.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/124.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/125.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/126.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/127.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/128.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/129.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/130.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/131.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/132.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/133.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/134.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/73.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/75.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/76.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/77.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/78.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/79.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/80.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/81.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/82.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/83.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/85.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/86.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/87.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/88.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/89.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/90.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/91.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/92.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/93.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/94.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/95.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/96.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/97.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/98.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/99.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/images/static.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/filemanager/images/file-16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/filemanager/images/file-64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/filemanager/images/folder-16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/filemanager/images/folder-64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/filemanager/images/go-up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/image/images/align_left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/image/images/align_right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/image/images/align_top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/image/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/multiimage/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/multiimage/images/select-files-en.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/multiimage/images/select-files-zh-CN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/multiimage/images/swfupload.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/common/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/common/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/common/flash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/common/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/common/media.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/common/rm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/default/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/default/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/qq/editor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json_simple-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/demo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/diary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/css/bootstrap-datetimepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/demo.aspx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/file_manager_json.ashx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/upload_json.ashx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/JSON_2.0.4.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/UpLoad_Class.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/demo.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/file_manager_json.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/upload_json.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/file_manager_json.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/upload_json.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/kindeditor-all-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/kindeditor-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/lang/zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/lang/zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/php/JSON.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/php/demo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/php/file_manager_json.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/php/upload_json.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/anchor/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/autoheight/autoheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/baidumap/baidumap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/baidumap/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/baidumap/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/clearhtml/clearhtml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/code/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/code/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/code/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/emoticons/emoticons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/filemanager/filemanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/fixtoolbar/fixtoolbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/flash/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/image/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/insertfile/insertfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/lineheight/lineheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/link/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/map/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/media/media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/multiimage/multiimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/pagebreak/pagebreak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/plainpaste/plainpaste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/preview/preview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/quickformat/quickformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/table/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/template/html/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/template/html/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/template/html/3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/template/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/plugins/wordpaste/wordpaste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/default/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/qq/qq.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/themes/simple/simple.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/BookController.class" afterPath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/BookController.class" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-entity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-entity-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-util-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-util-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___controller_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___controller_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___dao_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___dao_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___entity_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___entity_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___service_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___service_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___util_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___util_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/controller/controller_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/controller/controller_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/controller/controller_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/controller/controller_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dao/dao_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/dao/dao_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dao/dao_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/dao/dao_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/entity/entity_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/entity/entity_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/entity/entity_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/entity/entity_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/jsp/demo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp.net/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp.net/bin/LitJSON.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp.net/demo.aspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp.net/file_manager_json.ashx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp.net/upload_json.ashx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp/JSON_2.0.4.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp/UpLoad_Class.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp/demo.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp/file_manager_json.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/asp/upload_json.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/jsp/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/php/JSON.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/php/demo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/php/file_manager_json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/php/upload_json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/bin/LitJSON.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/demo.aspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/file_manager_json.ashx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp.net/upload_json.ashx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/JSON_2.0.4.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/UpLoad_Class.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/demo.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/file_manager_json.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/asp/upload_json.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/php/JSON.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/php/demo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/php/file_manager_json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/php/upload_json.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build.gradle" afterPath="$PROJECT_DIR$/controller/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/jsp/diary.html" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/jsp/diary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/jsp/upload_json.jsp" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/jsp/upload_json.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/diary.html" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/diary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/upload_json.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/upload_json.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/demo.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/demo.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -395,64 +163,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload_json.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="upload_json.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/upload_json.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
-              <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+            <state relative-caret-position="-404">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding>
-                <element signature="e#2499#2507#0#JAVA" expanded="true" />
+                <element signature="e#2493#2501#0#JAVA" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file_manager_json.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="file_manager_json.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/file_manager_json.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3526">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="-1364">
+              <caret line="98" column="37" lean-forward="true" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+              <folding>
+                <element signature="e#714#722#0#JAVA" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="demo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/demo.jsp">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/demo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-630">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="153" column="31" lean-forward="false" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="e#1364#1415#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -480,11 +222,9 @@
       <file leaf-file-name="Spider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/src/main/java/org/itzxs/util/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
+            <state relative-caret-position="464">
               <caret line="93" column="54" lean-forward="false" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1844,7 +1584,6 @@
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/kindeditor/jsp/activity2.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/kindeditor/jsp/demo.jsp" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/demo.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/html/diary.html" />
         <option value="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/html/upload_json.jsp" />
@@ -1852,6 +1591,8 @@
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/html/demo.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/resources/spring/servlet-context.xml" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/demo.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/file_manager_json.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/demo.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/upload_json.jsp" />
       </list>
     </option>
@@ -1900,284 +1641,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="book" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kindeditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kindeditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2847,16 +2310,15 @@
       <workItem from="1524820849241" duration="1735000" />
       <workItem from="1525248479284" duration="29000" />
       <workItem from="1525331332665" duration="5011000" />
-      <workItem from="1525336451847" duration="2339000" />
+      <workItem from="1525336451847" duration="4827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52076000" />
+    <option name="totallyTimeSpent" value="54564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2883,7 +2345,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2646421" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14978679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14978679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2914,13 +2376,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dao/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -3143,16 +2598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/main/java/org/itzxs/util/Spider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="93" column="54" lean-forward="false" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/test.html" />
     <entry file="file://$PROJECT_DIR$/controller/src/main/resources/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -3205,26 +2650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="153" column="31" lean-forward="false" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/diary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -3245,29 +2674,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/demo.jsp">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="293">
+          <caret line="153" column="31" lean-forward="false" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/upload_json.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/jsp/diary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
-          <folding>
-            <element signature="e#2499#2507#0#JAVA" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/org/itzxs/util/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="93" column="54" lean-forward="false" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/file_manager_json.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3526">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="-1364">
+          <caret line="98" column="37" lean-forward="true" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+          <folding>
+            <element signature="e#714#722#0#JAVA" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/demo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#1364#1415#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/upload_json.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="e#2493#2501#0#JAVA" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -16,11 +16,10 @@
  */
 
 //文件保存目录路径
-String savePath = "F:/opt/book/";
-//String savePath = pageContext.getServletContext().getRealPath("/") + "attached/";
+String savePath = pageContext.getServletContext().getRealPath("/");
 
 //文件保存目录URL
-String saveUrl  = "F:/opt/book/";
+String saveUrl  = request.getContextPath();
 
 //定义允许上传的文件扩展名
 HashMap<String, String> extMap = new HashMap<String, String>();
@@ -41,6 +40,7 @@ if(!ServletFileUpload.isMultipartContent(request)){
 //检查目录
 File uploadDir = new File(savePath);
 if(!uploadDir.isDirectory()){
+	out.println(getError(savePath));
 	out.println(getError("上传目录不存在。"));
 	return;
 }
