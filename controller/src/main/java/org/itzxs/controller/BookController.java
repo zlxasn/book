@@ -27,4 +27,12 @@ public class BookController {
         mv.setViewName("/demo");
         return mv;
     }
+
+    @RequestMapping("/bookList")
+    @ResponseBody
+    public ModelAndView bookList(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("/bookList");
+        return mv;
+    }
 }

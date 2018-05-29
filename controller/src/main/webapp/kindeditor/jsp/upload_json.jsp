@@ -32,7 +32,6 @@ extMap.put("file", "doc,docx,xls,xlsx,ppt,htm,html,txt,zip,rar,gz,bz2");
 long maxSize = 1000000;
 
 response.setContentType("text/html; charset=UTF-8");
-
 if(!ServletFileUpload.isMultipartContent(request)){
 	out.println(getError("请选择文件。"));
 	return;
@@ -40,7 +39,6 @@ if(!ServletFileUpload.isMultipartContent(request)){
 //检查目录
 File uploadDir = new File(savePath);
 if(!uploadDir.isDirectory()){
-	out.println(getError(savePath));
 	out.println(getError("上传目录不存在。"));
 	return;
 }
