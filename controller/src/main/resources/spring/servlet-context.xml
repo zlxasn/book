@@ -12,6 +12,9 @@
     <aop:aspectj-autoproxy proxy-target-class="true" />
 
     <mvc:annotation-driven/>
+    <!-- 静态资源处理  css js imgs -->
+    <mvc:resources location="/css/" mapping="/css/**"/>
+    <mvc:resources location="/js/" mapping="/js/**" />
 	<!--一些特殊的@Valid等必须用这个 -->
 	<!--<<mvc:annotation-driven validator="validator"
 		conversion-service="conversion-service">
@@ -69,8 +72,8 @@
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass"
                   value="org.springframework.web.servlet.view.JstlView"/>
-        <property name="prefix" value="/itzxs/"/>
-        <property name="suffix" value=".jsp"></property>
+        <!--<property name="prefix" value="/itzxs/"/>
+        <property name="suffix" value=".jsp"></property>-->
     </bean>
 
     <bean id="multipartResolver"

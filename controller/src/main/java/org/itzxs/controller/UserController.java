@@ -1,11 +1,15 @@
 package org.itzxs.controller;
 
+import org.itzxs.constant.MessageVar;
 import org.itzxs.entity.UserInformation;
+import org.itzxs.result.JsonResult;
 import org.itzxs.service.UserService;
 import org.itzxs.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -24,20 +28,16 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @RequestMapping("/login")
-    public ModelAndView login(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, @Valid UserInformation userInformation){
-        ModelAndView modelAndView = new ModelAndView();
+    @RequestMapping(value = "/login")
+    @ResponseBody
+    public JsonResult login(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, @Valid UserInformation userInformation){
         if(userInformation == null || StringUtil.isEmpty(userInformation.getPassWord())){
-            modelAndView.setViewName("/login");
-            return modelAndView;
+            return new JsonResult(0, MessageVar.PASS_WORD_NOT_EMPTY,null);
         }
         userInformation = userService.login(userInformation);
         if(userInformation == null || StringUtil.isEmpty(userInformation.getUserId())){
-            modelAndView.setViewName("/login");
-            return modelAndView;
+            return new JsonResult(0, MessageVar.LOGIN_USER_PWD_ERROR,null);
         }
-        modelAndView.addObject("userInformation",userInformation);
-        modelAndView.setViewName("/book/bookList");
-        return modelAndView;
+        return new JsonResult(1,JsonResult.SUCCESS,userInformation);
     }
 }

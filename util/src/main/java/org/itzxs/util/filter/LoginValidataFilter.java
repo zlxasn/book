@@ -40,7 +40,7 @@ public class LoginValidataFilter implements Filter{
             }
         }
         UserInformation userInformation  = (UserInformation) httpSession.getAttribute("userInformation");
-        if (url.contains(loginUrl) || userInformation != null && !userInformation.getUserName().isEmpty()) {
+        if (url.contains(loginUrl) || userInformation != null && !StringUtil.isEmpty(userInformation.getUserName())) {
             chain.doFilter(httpServletRequest,httpServletResponse);
         }else{
             //如果是ajax请求响应头会有，x-requested-with；
@@ -49,7 +49,7 @@ public class LoginValidataFilter implements Filter{
                 httpServletResponse.setHeader("sessionStatus", "timeout");
                 httpServletResponse.setStatus(403);
             } else {
-                httpServletResponse.sendRedirect("/itzxs/login.jsp");
+                httpServletResponse.sendRedirect("/user/index.html");
             }
         }
     }
