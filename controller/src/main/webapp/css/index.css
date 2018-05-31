@@ -1,0 +1,10 @@
+.login-user {
+    float: left;
+}
+.login-part {
+    background: #fefefe;
+    border: 1px solid #d5dce5;
+    border-radius: 5px;
+    /* border-top: none; */
+    box-shazdow: 1px 1px 1px #eaeaea;
+}

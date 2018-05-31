@@ -2,38 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a25c27-8c77-4dc9-a47d-cbcbd3b7c360" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/book/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/js/jquery.easyui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/user/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/src/main/java/org/itzxs/constant/MessageVar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/src/main/java/org/itzxs/result/JsonResult.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/itzxs/book/bookList.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/itzxs/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/itzxs/book/bookList.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/itzxs/login.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/UserController.class" afterPath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/UserController.class" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/UserController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/imgs/backgroud.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-dao-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-entity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-entity-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-service-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-util-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-util-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/exception/ServiceExceptionEnum.class" afterPath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/exception/ServiceExceptionEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/util/filter/LoginValidataFilter.class" afterPath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/util/filter/LoginValidataFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/message.properties" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/message.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/BookMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/ChapterMapper.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/ChapterMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/application-task.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/application-task.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/ehcache.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/ehcache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/servlet-context.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/servlet-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/system.properties" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/system.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/js/login.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/jsp/diary.html" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/jsp/diary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/css/bootstrap.css" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/css/index.css" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/jsp/demo.jsp" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/jsp/demo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/jsp/file_manager_json.jsp" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/jsp/file_manager_json.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/lang/ar.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/lang/en.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/lang/zh-CN.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/lang/zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/clearhtml/clearhtml.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/clearhtml/clearhtml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/code/code.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/code/code.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/emoticons/emoticons.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/emoticons/emoticons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/filemanager/filemanager.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/filemanager/filemanager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/flash/flash.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/flash/flash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/image/image.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/image/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/insertfile/insertfile.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/insertfile/insertfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/lineheight/lineheight.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/lineheight/lineheight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/link/link.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/link/link.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/map/map.html" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/map/map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/map/map.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/map/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/media/media.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/media/media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/pagebreak/pagebreak.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/pagebreak/pagebreak.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/plainpaste/plainpaste.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/plainpaste/plainpaste.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/preview/preview.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/preview/preview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/quickformat/quickformat.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/quickformat/quickformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/table/table.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/table/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/template/template.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/template/template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/wordpaste/wordpaste.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/kindeditor/plugins/wordpaste/wordpaste.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/user/index.html" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/user/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/log4j.properties" afterPath="$PROJECT_DIR$/controller/build/resources/main/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/message.properties" afterPath="$PROJECT_DIR$/controller/build/resources/main/message.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/BookMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/ChapterMapper.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/ChapterMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/spring/application-task.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/spring/application-task.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/spring/ehcache.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/spring/ehcache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/spring/servlet-context.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/spring/servlet-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/system.properties" afterPath="$PROJECT_DIR$/controller/build/resources/main/system.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/UserController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/tmp/war/MANIFEST.MF" afterPath="$PROJECT_DIR$/controller/build/tmp/war/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/spring/servlet-context.xml" afterPath="$PROJECT_DIR$/controller/src/main/resources/spring/servlet-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/system.properties" afterPath="$PROJECT_DIR$/controller/src/main/resources/system.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/js/login.js" afterPath="$PROJECT_DIR$/controller/src/main/webapp/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/filter/LoginValidataFilter.java" afterPath="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/filter/LoginValidataFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/css/index.css" afterPath="$PROJECT_DIR$/controller/src/main/webapp/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/user/index.html" afterPath="$PROJECT_DIR$/controller/src/main/webapp/user/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/tmp/jar/MANIFEST.MF" afterPath="$PROJECT_DIR$/dao/build/tmp/jar/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/tmp/war/MANIFEST.MF" afterPath="$PROJECT_DIR$/dao/build/tmp/war/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/tmp/jar/MANIFEST.MF" afterPath="$PROJECT_DIR$/entity/build/tmp/jar/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/tmp/war/MANIFEST.MF" afterPath="$PROJECT_DIR$/entity/build/tmp/war/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/tmp/jar/MANIFEST.MF" afterPath="$PROJECT_DIR$/service/build/tmp/jar/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/tmp/war/MANIFEST.MF" afterPath="$PROJECT_DIR$/service/build/tmp/war/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/tmp/jar/MANIFEST.MF" afterPath="$PROJECT_DIR$/util/build/tmp/jar/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/tmp/war/MANIFEST.MF" afterPath="$PROJECT_DIR$/util/build/tmp/war/MANIFEST.MF" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -148,11 +196,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,11 +208,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/user/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+            <state relative-caret-position="294">
+              <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1575,13 +1633,13 @@
         <option value="$PROJECT_DIR$/controller/src/main/webapp/user/index.jsp" />
         <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/filter/LoginValidataFilter.java" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/js/login.js" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/book/index.html" />
         <option value="$PROJECT_DIR$/controller/src/main/resources/spring/servlet-context.xml" />
         <option value="$PROJECT_DIR$/controller/src/main/resources/system.properties" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/css/index.css" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/js/login.js" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/user/index.html" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/book/index.html" />
       </list>
     </option>
   </component>
@@ -1827,11 +1885,11 @@
       <recent name="org.itzxs.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_github_repository\book\controller\src\main\webapp\imgs" />
       <recent name="D:\my_github_repository\book\controller\src\main\webapp\js" />
       <recent name="D:\my_github_repository\book\controller\src\main\resources" />
       <recent name="D:\my_github_repository\book\controller\src\main\resources\org\itzxs\mapper" />
       <recent name="D:\my_github_repository\book\dao\src\main\java\org\itzxs\dao" />
-      <recent name="D:\my_github_repository\book\entity\src\main\java\org\itzxs\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2472,12 +2530,12 @@
       <workItem from="1527643890476" duration="4248000" />
       <workItem from="1527674164169" duration="684000" />
       <workItem from="1527730652687" duration="1350000" />
-      <workItem from="1527736886322" duration="9655000" />
+      <workItem from="1527736886322" duration="16160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94292000" />
+    <option name="totallyTimeSpent" value="100797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -2497,7 +2555,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37960956" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37960956" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2578,13 +2636,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/file_manager_json.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="98" column="37" lean-forward="false" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/kindeditor/jsp/demo.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -2734,13 +2785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/spring/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -2879,50 +2923,28 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/spring/servlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/js/jquery.easyui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/user/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/book/bookList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2943,13 +2965,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/spring/servlet-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/spring/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/js/jquery.easyui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/system.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/user/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

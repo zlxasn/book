@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -13,11 +13,35 @@
         <title>登录</title>
     </head>
     <body>
-        <div>
-            <input type="text" name="userName" id="username"/>
-            <input type="text" name="passWord" id="password"/>
-            <input type="button" id = "login" onclick="login()" value="登录"/>
-            <input type="button" id = "register" onclick="register()" value="注册"/>
+        <!--100% 宽度，占据全部视口（viewport）的容器。-->
+        <div class="container-fluid">
+            <div class="row wrap-login">
+                <div class="login-banner col-sm-6 col-md-7 col-lg-7 hidden-xs">
+
+                </div>
+                <div class="login-user col-xs-12 col-sm-6 col-md-5 col-lg-5 js_login_user">
+                    <div class="login-part">
+                        <h3>
+                            账号登录
+                        </h3>
+                        <div class="user-info">
+                            <div class="user-pass">
+                                <form>
+                                    <input type="text" placeholder="输入用户名/邮箱/手机号" id="username">
+                                    <div>
+                                        <span>
+                                            该手机号已绑定账号，可使用
+                                        </span>
+                                    </div>
+                                    <input type="text" placeholder="输入密码" id="password">
+                                    <input type="button" value="登录">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
+
