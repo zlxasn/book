@@ -20,4 +20,9 @@ public class MessageVar {
      * 密码不能为空
      */
     public static final String PASS_WORD_NOT_EMPTY = getMsg("password.not.empty");
+
+    /**
+     * 注册失败
+     */
+    public static final String REGISTER_ERROR = getMsg("rigister.error");
 }

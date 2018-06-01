@@ -272,9 +272,7 @@
 }
 .wrap-login .login-user {
     float: left;
-}
-.pub_fo {
-    margin-top: 0 !important;
+    opacity: 0.8;
 }
 
 

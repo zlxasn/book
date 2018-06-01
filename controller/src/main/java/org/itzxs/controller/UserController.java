@@ -28,15 +28,27 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @RequestMapping(value = "/login")
+    @RequestMapping(value = "/f_login")
     @ResponseBody
     public JsonResult login(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, @Valid UserInformation userInformation){
         if(userInformation == null || StringUtil.isEmpty(userInformation.getPassWord())){
             return new JsonResult(0, MessageVar.PASS_WORD_NOT_EMPTY,null);
         }
         userInformation = userService.login(userInformation);
-        if(userInformation == null || StringUtil.isEmpty(userInformation.getUserId())){
+        if(userInformation == null || StringUtil.isEmpty(userInformation.getUserName())){
             return new JsonResult(0, MessageVar.LOGIN_USER_PWD_ERROR,null);
+        }
+        return new JsonResult(1,JsonResult.SUCCESS,userInformation);
+    }
+
+    @RequestMapping(value = "/f_register")
+    @ResponseBody
+    public JsonResult register(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, @Valid UserInformation userInformation){
+        if(userInformation == null || StringUtil.isEmpty(userInformation.getPassWord())){
+            return new JsonResult(0, MessageVar.PASS_WORD_NOT_EMPTY,null);
+        }
+        if(!userService.register(userInformation)){
+            return new JsonResult(0, MessageVar.REGISTER_ERROR,null);
         }
         return new JsonResult(1,JsonResult.SUCCESS,userInformation);
     }

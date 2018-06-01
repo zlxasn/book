@@ -12,11 +12,12 @@ function login(){
             userName:username,
             passWord:password
         });
-        $.post('/user/login',data,function(data){
+        $.post('/user/f_login',data,function(data){
             if(data.code == 1){
                 document.location.href = "/book/index.html";
             } else {
-                $.messager.alert('警告', '用户名或密码错误！', 'warning');
+                $(".error-mess").show();
+                $("#error-message").html( data.msg);
             }
         },'json');
     }

@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="referrer" content="always">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="qc:admins" content="24530273213633466654">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册账号</title>
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/css/user/index.css">
+    <script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="/js/user/register.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="header"></div>
+<div class="main" style="background:url(/imgs/background.jpg);background-size:cover;">
+    <div class="container container-custom">
+        <div class="row wrap-login">
+            <div class="login-banner col-sm-6 col-md-7 col-lg-7 hidden-xs"><a href="https://www.baidu.com" target="_blank"><img src="/imgs/login-banner.png" class="img-responsive"></a></div>
+            <div class="login-user col-xs-12 col-sm-6 col-md-5 col-lg-5 js_login_user">
+                <div class="login-part">
+                    <h3>帐号注册</h3>
+                    <div class="user-info">
+                        <div class="user-pass">
+                            <form id="fm1" method="post">
+                                <input id="username" name="username" tabindex="1" placeholder="输入用户名/邮箱/手机号" class="user-name" type="text" value="">
+                                <div class="mobile-auth" style="display:none"><span>该手机已绑定账号，可使用  </span><a href="https://csdnimg.cn/release/passport/" id="mloginurl" class="mobile-btn">手机验证码登录</a></div>
+                                <input id="password" name="passwordOne" tabindex="2" placeholder="输入密码" class="pass-word" type="password" value="" autocomplete="off">
+                                <input id="passwordAgain" name="password" tabindex="2" placeholder="再次输入" class="pass-word" type="password" value="" autocomplete="off">
+                                <div class="error-mess" style="display:none;">
+                                    <span class="error-icon"></span><span id="error-message"></span>
+                                </div>
+                                <input class="logging" accesskey="l" value="注 册" tabindex="6" type="button" onclick="register()">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="third-part tracking-ad" data-mod="popu_27">
+                        <div class="register-now">
+                            <span>还没有翠花小说网帐号？</span>
+                            <span class="register tracking-ad" data-mod="popu_28">
+                                <a href="/user/register.html" class="js_login_trigger js_status_register" target="_blank">立即注册</a>
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer"></div>
+</body>
+</html>

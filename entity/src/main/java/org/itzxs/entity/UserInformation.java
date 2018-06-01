@@ -3,7 +3,7 @@ package org.itzxs.entity;
 import java.util.Date;
 
 public class UserInformation {
-    private String userId;
+    private int userId;
 
     private String userName;
 
@@ -35,12 +35,12 @@ public class UserInformation {
 
     private String personalitySignature;
 
-    public String getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
-        this.userId = userId == null ? null : userId.trim();
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public String getUserName() {
