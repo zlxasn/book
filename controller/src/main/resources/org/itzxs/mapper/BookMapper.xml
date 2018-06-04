@@ -4,9 +4,14 @@
   <resultMap id="BaseResultMap" type="org.itzxs.entity.Book" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="book_name" property="bookName" jdbcType="VARCHAR" />
+    <result column="book_url" property="bookUrl" jdbcType="VARCHAR" />
+    <result column="book_level" property="bookLevel" jdbcType="INTEGER" />
+    <result column="book_img_url" property="bookImgUrl" jdbcType="VARCHAR" />
+    <result column="book_user" property="bookUser" jdbcType="VARCHAR" />
+    <result column="modify_date" property="modifyDate" jdbcType="DATE" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, book_name
+    id, book_name, book_url, book_level, book_img_url, book_user, modify_date
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
@@ -19,8 +24,12 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="org.itzxs.entity.Book" >
-    insert into t_book (id, book_name)
-    values (#{id,jdbcType=INTEGER}, #{bookName,jdbcType=VARCHAR})
+    insert into t_book (id, book_name, book_url, 
+      book_level, book_img_url, book_user, 
+      modify_date)
+    values (#{id,jdbcType=INTEGER}, #{bookName,jdbcType=VARCHAR}, #{bookUrl,jdbcType=VARCHAR}, 
+      #{bookLevel,jdbcType=INTEGER}, #{bookImgUrl,jdbcType=VARCHAR}, #{bookUser,jdbcType=VARCHAR}, 
+      #{modifyDate,jdbcType=DATE})
   </insert>
   <insert id="insertSelective" parameterType="org.itzxs.entity.Book" >
     insert into t_book
@@ -31,6 +40,21 @@
       <if test="bookName != null" >
         book_name,
       </if>
+      <if test="bookUrl != null" >
+        book_url,
+      </if>
+      <if test="bookLevel != null" >
+        book_level,
+      </if>
+      <if test="bookImgUrl != null" >
+        book_img_url,
+      </if>
+      <if test="bookUser != null" >
+        book_user,
+      </if>
+      <if test="modifyDate != null" >
+        modify_date,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -38,6 +62,21 @@
       </if>
       <if test="bookName != null" >
         #{bookName,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUrl != null" >
+        #{bookUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookLevel != null" >
+        #{bookLevel,jdbcType=INTEGER},
+      </if>
+      <if test="bookImgUrl != null" >
+        #{bookImgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUser != null" >
+        #{bookUser,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyDate != null" >
+        #{modifyDate,jdbcType=DATE},
       </if>
     </trim>
   </insert>
@@ -47,12 +86,95 @@
       <if test="bookName != null" >
         book_name = #{bookName,jdbcType=VARCHAR},
       </if>
+      <if test="bookUrl != null" >
+        book_url = #{bookUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookLevel != null" >
+        book_level = #{bookLevel,jdbcType=INTEGER},
+      </if>
+      <if test="bookImgUrl != null" >
+        book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUser != null" >
+        book_user = #{bookUser,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyDate != null" >
+        modify_date = #{modifyDate,jdbcType=DATE},
+      </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="org.itzxs.entity.Book" >
     update t_book
-    set book_name = #{bookName,jdbcType=VARCHAR}
+    set book_name = #{bookName,jdbcType=VARCHAR},
+      book_url = #{bookUrl,jdbcType=VARCHAR},
+      book_level = #{bookLevel,jdbcType=INTEGER},
+      book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
+      book_user = #{bookUser,jdbcType=VARCHAR},
+      modify_date = #{modifyDate,jdbcType=DATE}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <insert id="insertBooks" parameterType="java.util.List">
+    insert into t_book (book_name, book_url,book_level,book_img_url,book_user,modify_date)
+    values
+    <foreach collection="list" item="item" index="index" separator=",">
+      (#{item.bookName,jdbcType=VARCHAR}, #{item.bookUrl,jdbcType=VARCHAR},#{item.bookLevel,jdbcType=INTEGER},
+      #{item.bookImgUrl,jdbcType=VARCHAR},#{item.bookUser,jdbcType=VARCHAR},#{item.modifyDate,jdbcType=DATE})
+    </foreach>
+  </insert>
+  <update id="updateBooks" parameterType="java.util.List">
+    update t_book
+    <trim prefix="set" suffixOverrides=",">
+      <trim prefix="book_name = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookName!=null">
+            when id=#{item.id} then #{item.bookName}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_url = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookUrl!=null">
+            when id=#{item.id} then #{item.bookUrl}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_level = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookLevel!=null">
+            when id=#{item.id} then #{item.bookLevel}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_img_url = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookImgUrl!=null">
+            when id=#{item.id} then #{item.bookImgUrl}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_user = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookUser!=null">
+            when id=#{item.id} then #{item.bookUser}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="modify_date = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.modifyDate!=null">
+            when id=#{item.id} then #{item.modifyDate}
+          </if>
+        </foreach>
+      </trim>
+    </trim>
+    <where>
+      <foreach collection="list" separator="or" item="item">
+        id = #{item.id}
+      </foreach>
+    </where>
+  </update>
+  <select id="selectIdByLevel" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+    select id from t_book where book_level = #{level,jdbcType=INTEGER}
+  </select>
 </mapper>

@@ -13,6 +13,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.File;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -36,23 +37,26 @@ public class Spider {
     public List<ChapterDTO> getChapter(String url) {
         try {
             //获取连接结果
-            String result = crawl(url);
+//            String result = crawl(url);
             //解析返回结果为document
-            Document doc = Jsoup.parse(result);
-            Elements as = doc.select("#list dd a");
+            Document doc = Jsoup.parse(new URL(url).openStream(),"GBK",url);
+//            Elements as = doc.select("#list dd a");
+            Elements as = doc.select(".novelslist li a");
             List<ChapterDTO> chapters = new ArrayList<>();
             //遍历
             for (Element a : as) {
                 ChapterDTO chapterDTO = new ChapterDTO();
                 //章节标题
                 chapterDTO.setTitle(a.text());
+                System.out.println(a.text());
                 //章节链接
                 System.out.println(a.attr("href"));
-                if((a.attr("href")).contains("0_5")){
+                chapterDTO.setUrl(a.attr("href"));
+                /*if((a.attr("href")).contains("0_5")){
                     chapterDTO.setUrl("http://www.biquge.tw" + a.attr("href"));
                 }else{
                     chapterDTO.setUrl("http://www.biquge.tw/0_5/" + a.attr("href"));
-                }
+                }*/
                 chapters.add(chapterDTO);
             }
             return chapters;
@@ -106,8 +110,15 @@ public class Spider {
 
     public static void main(String[] args) {
         Spider spider = new Spider();
-        List<Map<String,String>> list = spider.getFiles("F:/novel/");
+        List<ChapterDTO> list = spider.getChapter("http://www.biquge.com.tw/");
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i).getTitle());
+            System.out.println(list.get(i).getUrl());
+            System.out.println("----------------------------");
+        }
         System.out.println(list.size());
+        /*List<Map<String,String>> list = spider.getFiles("F:/novel/");
+        System.out.println(list.size());*/
         /*try{
             Spider spider = new Spider();
             List<ChapterDTO> list = spider.getChapter("http://www.biquge.tw/0_5/");
