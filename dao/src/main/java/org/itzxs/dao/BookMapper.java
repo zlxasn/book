@@ -22,4 +22,5 @@ public interface BookMapper {
     int updateBooks(List<Book> books);
 
     List<Integer> selectIdByLevel(Integer level);
+
 }

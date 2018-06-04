@@ -75,6 +75,49 @@ public class BookServiceImpl implements BookService{
         if(books.size() == ids.size()){
             for (int i = 0; i < ids.size(); i++) {
                 books.get(i).setId(ids.get(i));
+                books.get(i).setModifyDate(new Date());
+            }
+            int num = bookMapper.updateBooks(books);
+            if(num <= 0){
+                return false;
+            }
+        }else{
+            System.out.println("爬取的网站格式修改，需要重新编写代码");
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public boolean addEveryModelHotBook(){
+        GetBQGNovel getBQGNovel = new GetBQGNovel();
+        List<Book> books = getBQGNovel.getEveryModelHotNovel("http://www.biquge.com.tw/");
+        List<Integer> ids = bookMapper.selectIdByLevel(2);
+        if(books.size() == ids.size()){
+            for (int i = 0; i < ids.size(); i++) {
+                books.get(i).setId(ids.get(i));
+                books.get(i).setModifyDate(new Date());
+            }
+            int num = bookMapper.updateBooks(books);
+            if(num <= 0){
+                return false;
+            }
+        }else{
+            System.out.println("爬取的网站格式修改，需要重新编写代码");
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public boolean addEveryModelBook(){
+        GetBQGNovel getBQGNovel = new GetBQGNovel();
+        List<Book> books = getBQGNovel.getEveryModelNovel("http://www.biquge.com.tw/");
+        List<Integer> ids = bookMapper.selectIdByLevel(3);
+        if(books.size() == ids.size()){
+            for (int i = 0; i < ids.size(); i++) {
+                books.get(i).setId(ids.get(i));
+                books.get(i).setModifyDate(new Date());
             }
             int num = bookMapper.updateBooks(books);
             if(num <= 0){

@@ -17,16 +17,22 @@ public class Book {
 
     private Date modifyDate;
 
+    private Integer bookType;
+
+    private String bookDescribe;
+
     public Book() {
     }
 
-    public Book(String bookName, String bookUrl, Integer bookLevel, String bookImgUrl, String bookUser, Date modifyDate) {
+    public Book(String bookName, String bookUrl, Integer bookLevel, String bookImgUrl, String bookUser, Date modifyDate, Integer bookType, String bookDescribe) {
         this.bookName = bookName;
         this.bookUrl = bookUrl;
         this.bookLevel = bookLevel;
         this.bookImgUrl = bookImgUrl;
         this.bookUser = bookUser;
         this.modifyDate = modifyDate;
+        this.bookType = bookType;
+        this.bookDescribe = bookDescribe;
     }
 
     public Integer getId() {
@@ -85,6 +91,22 @@ public class Book {
         this.modifyDate = modifyDate;
     }
 
+    public Integer getBookType() {
+        return bookType;
+    }
+
+    public void setBookType(Integer bookType) {
+        this.bookType = bookType;
+    }
+
+    public String getBookDescribe() {
+        return bookDescribe;
+    }
+
+    public void setBookDescribe(String bookDescribe) {
+        this.bookDescribe = bookDescribe == null ? null : bookDescribe.trim();
+    }
+
     @Override
     public String toString() {
         return "Book{" +
@@ -95,6 +117,8 @@ public class Book {
                 ", bookImgUrl='" + bookImgUrl + '\'' +
                 ", bookUser='" + bookUser + '\'' +
                 ", modifyDate=" + modifyDate +
+                ", bookType=" + bookType +
+                ", bookDescribe='" + bookDescribe + '\'' +
                 '}';
     }
 }

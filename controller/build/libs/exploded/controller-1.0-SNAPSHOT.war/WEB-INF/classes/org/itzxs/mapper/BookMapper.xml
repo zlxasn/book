@@ -8,10 +8,13 @@
     <result column="book_level" property="bookLevel" jdbcType="INTEGER" />
     <result column="book_img_url" property="bookImgUrl" jdbcType="VARCHAR" />
     <result column="book_user" property="bookUser" jdbcType="VARCHAR" />
-    <result column="modify_date" property="modifyDate" jdbcType="DATE" />
+    <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
+    <result column="book_type" property="bookType" jdbcType="INTEGER" />
+    <result column="book_describe" property="bookDescribe" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, book_name, book_url, book_level, book_img_url, book_user, modify_date
+    id, book_name, book_url, book_level, book_img_url, book_user, modify_date, book_type, 
+    book_describe
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
@@ -26,10 +29,12 @@
   <insert id="insert" parameterType="org.itzxs.entity.Book" >
     insert into t_book (id, book_name, book_url, 
       book_level, book_img_url, book_user, 
-      modify_date)
+      modify_date, book_type, book_describe
+      )
     values (#{id,jdbcType=INTEGER}, #{bookName,jdbcType=VARCHAR}, #{bookUrl,jdbcType=VARCHAR}, 
       #{bookLevel,jdbcType=INTEGER}, #{bookImgUrl,jdbcType=VARCHAR}, #{bookUser,jdbcType=VARCHAR}, 
-      #{modifyDate,jdbcType=DATE})
+      #{modifyDate,jdbcType=TIMESTAMP}, #{bookType,jdbcType=INTEGER}, #{bookDescribe,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="org.itzxs.entity.Book" >
     insert into t_book
@@ -55,6 +60,12 @@
       <if test="modifyDate != null" >
         modify_date,
       </if>
+      <if test="bookType != null" >
+        book_type,
+      </if>
+      <if test="bookDescribe != null" >
+        book_describe,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -76,7 +87,13 @@
         #{bookUser,jdbcType=VARCHAR},
       </if>
       <if test="modifyDate != null" >
-        #{modifyDate,jdbcType=DATE},
+        #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookType != null" >
+        #{bookType,jdbcType=INTEGER},
+      </if>
+      <if test="bookDescribe != null" >
+        #{bookDescribe,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -99,7 +116,13 @@
         book_user = #{bookUser,jdbcType=VARCHAR},
       </if>
       <if test="modifyDate != null" >
-        modify_date = #{modifyDate,jdbcType=DATE},
+        modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookType != null" >
+        book_type = #{bookType,jdbcType=INTEGER},
+      </if>
+      <if test="bookDescribe != null" >
+        book_describe = #{bookDescribe,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
@@ -111,15 +134,18 @@
       book_level = #{bookLevel,jdbcType=INTEGER},
       book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
       book_user = #{bookUser,jdbcType=VARCHAR},
-      modify_date = #{modifyDate,jdbcType=DATE}
+      modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+      book_type = #{bookType,jdbcType=INTEGER},
+      book_describe = #{bookDescribe,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
   <insert id="insertBooks" parameterType="java.util.List">
-    insert into t_book (book_name, book_url,book_level,book_img_url,book_user,modify_date)
+    insert into t_book (book_name, book_url,book_level,book_img_url,book_user,modify_date,book_type,book_describe)
     values
     <foreach collection="list" item="item" index="index" separator=",">
       (#{item.bookName,jdbcType=VARCHAR}, #{item.bookUrl,jdbcType=VARCHAR},#{item.bookLevel,jdbcType=INTEGER},
-      #{item.bookImgUrl,jdbcType=VARCHAR},#{item.bookUser,jdbcType=VARCHAR},#{item.modifyDate,jdbcType=DATE})
+      #{item.bookImgUrl,jdbcType=VARCHAR},#{item.bookUser,jdbcType=VARCHAR},#{item.modifyDate,jdbcType=DATE},
+      #{item.bookType,jdbcType=INTEGER},#{item.bookDescribe,jdbcType=VARCHAR})
     </foreach>
   </insert>
   <update id="updateBooks" parameterType="java.util.List">
@@ -164,6 +190,20 @@
         <foreach collection="list" item="item">
           <if test="item.modifyDate!=null">
             when id=#{item.id} then #{item.modifyDate}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_type = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookType!=null">
+            when id=#{item.id} then #{item.bookType}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_describe = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookDescribe!=null">
+            when id=#{item.id} then #{item.bookDescribe}
           </if>
         </foreach>
       </trim>

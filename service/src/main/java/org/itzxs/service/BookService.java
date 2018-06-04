@@ -12,4 +12,7 @@ public interface BookService {
 
     boolean addHotBook();
 
+    public boolean addEveryModelHotBook();
+
+    public boolean addEveryModelBook();
 }

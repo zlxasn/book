@@ -16,6 +16,7 @@ import org.apache.http.message.BasicHeader;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HTTP;
 import org.apache.http.util.EntityUtils;
+import org.itzxs.constant.ParamterConstant;
 import org.itzxs.dto.ChapterDTO;
 import org.itzxs.entity.Book;
 import org.jsoup.Jsoup;
@@ -91,7 +92,85 @@ public class GetBQGNovel {
         }
     }
 
+    public List<Book> getEveryModelHotNovel(String url) {
+        try {
+            //解析返回结果为document
+            Document doc = Jsoup.parse(new URL(url).openStream(),"GBK",url);
+            Elements bookType = doc.select(".novelslist h2");
+            Elements topBookImg = doc.select(".top img");
+            Elements topBookNameAndUrl = doc.select(".top a");
+            Elements topBookDescribe = doc.select(".top dd");
+            List<Book> books = new ArrayList<>();
+            //遍历
+            for (int i = 0;i<bookType.size();i++) {
+                Book book = new Book();
+                book.setBookName(topBookNameAndUrl.get(i).text());
+                book.setBookImgUrl(topBookImg.get(i).attr("src"));
+                book.setBookLevel(2);
+                book.setBookUrl(topBookNameAndUrl.get(i).attr("href"));
+                book.setModifyDate(new Date());
+                if(ParamterConstant.XUHUAN_NOVEL.equals(bookType.get(i).text())){
+                    book.setBookType(ParamterConstant.XUHUAN_NOVEL_CODE);
+                }else if(ParamterConstant.XIUZHEN_NOVEL.equals(bookType.get(i).text())){
+                    book.setBookType(ParamterConstant.XIUZHEN_NOVEL_CODE);
+                }else if(ParamterConstant.DUSHI_NOVEL.equals(bookType.get(i).text())){
+                    book.setBookType(ParamterConstant.DUSHI_NOVEL_CODE);
+                }else if(ParamterConstant.LISHI_NOVEL.equals(bookType.get(i).text())){
+                    book.setBookType(ParamterConstant.LISHI_NOVEL_CODE);
+                }else if(ParamterConstant.WANGYOU_NOVEL.equals(bookType.get(i).text())){
+                    book.setBookType(ParamterConstant.WANGYOU_NOVEL_CODE);
+                }else if(ParamterConstant.KEHUAN_NOVEL.equals(bookType.get(i).text())){
+                    book.setBookType(ParamterConstant.KEHUAN_NOVEL_CODE);
+                }else{
+                    book.setBookType(ParamterConstant.ERROR_CODE);
+                }
+                book.setBookDescribe(topBookDescribe.get(i).text());
+                books.add(book);
+            }
+            return books;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public List<Book> getEveryModelNovel(String url) {
+        try {
+            //解析返回结果为document
+            Document doc = Jsoup.parse(new URL(url).openStream(),"GBK",url);
+            Elements bookNameAndUrl = doc.select(".content li a");
+            Elements bookType = doc.select(".content h2");
+            List<Book> books = new ArrayList<>();
+            for (int i = 0; i < bookNameAndUrl.size(); i++) {
+                Book book = new Book();
+                book.setBookName(bookNameAndUrl.get(i).text());
+                book.setBookLevel(3);
+                book.setBookUrl(bookNameAndUrl.get(i).attr("href"));
+                book.setModifyDate(new Date());
+                if(i<12){
+                    book.setBookType(ParamterConstant.XUHUAN_NOVEL_CODE);
+                }else if(12 <= i && i < 24){
+                    book.setBookType(ParamterConstant.XIUZHEN_NOVEL_CODE);
+                }else if(24 <= i && i < 36){
+                    book.setBookType(ParamterConstant.DUSHI_NOVEL_CODE);
+                }else if(36 <= i && i < 48){
+                    book.setBookType(ParamterConstant.LISHI_NOVEL_CODE);
+                }else if(48 <= i && i < 60){
+                    book.setBookType(ParamterConstant.WANGYOU_NOVEL_CODE);
+                }else if(60 <= i && i < 72){
+                    book.setBookType(ParamterConstant.KEHUAN_NOVEL_CODE);
+                }
+                books.add(book);
+            }
+            return books;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void main(String[] args) {
+        GetBQGNovel getBQGNovel  = new GetBQGNovel();
+        List<Book> books = getBQGNovel.getEveryModelNovel("http://www.biquge.com.tw/");
+        System.out.println(books.size());
     }
 
 }

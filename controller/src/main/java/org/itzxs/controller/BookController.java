@@ -31,7 +31,9 @@ public class BookController {
     @ResponseBody
     public ModelAndView addBook(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse){
         ModelAndView mv = new ModelAndView();
-        bookService.addHotBook();
+        bookService.addEveryModelBook();
+//        bookService.addEveryModelHotBook();
+//        bookService.addHotBook();
         mv.setViewName("/demo");
         return mv;
     }
