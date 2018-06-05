@@ -17,5 +17,9 @@ public class ParamterConstant {
     public static final int WANGYOU_NOVEL_CODE = 5;
     public static final String KEHUAN_NOVEL = "科幻小说";
     public static final int KEHUAN_NOVEL_CODE = 6;
+    public static final String KONGBU_NOVLE = "科幻小说";
+    public static final int KONGBU_NOVLE_CODE = 7;
+    public static final String QUANBEN_NOVLE = "科幻小说";
+    public static final int QUANBEN_NOVLE_CODE = 8;
     public static final int ERROR_CODE = 38;
 }

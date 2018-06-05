@@ -217,4 +217,7 @@
   <select id="selectIdByLevel" parameterType="java.lang.Integer" resultType="java.lang.Integer">
     select id from t_book where book_level = #{level,jdbcType=INTEGER}
   </select>
+  <select id="selectIdByLevelAndType" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+    select id from t_book where book_level = #{level,jdbcType=INTEGER} AND book_type = #{type,jdbcType=INTEGER}
+  </select>
 </mapper>

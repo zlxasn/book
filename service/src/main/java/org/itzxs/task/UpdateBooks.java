@@ -17,14 +17,20 @@ public class UpdateBooks {
     BookService bookService;
 
     /**
-     * 定时任务，每一个小时更新一次热点小说
+     * 定时任务，每一个小时更新一次
      */
     @Scheduled(fixedRate = 24 * 60 * 60 * 1000)
     public void fixedUpdateHotBooks() {
-        if(bookService.addHotBook()){
-            System.out.println(new Date()+"--------->更新热点小说");
-        }else {
-            System.out.println(new Date()+"！！！！！>更新热点小说失败");
-        }
+        bookService.addHotBook();
+        bookService.addEveryModelHotBook();
+        bookService.addEveryModelBook();
+        bookService.addHotABookByModel("http://www.biquge.com.tw/xuanhuan/",1);
+        bookService.addHotABookByModel("http://www.biquge.com.tw/xiuzhen/",2);
+        bookService.addHotABookByModel("http://www.biquge.com.tw/dushi/",3);
+        bookService.addHotABookByModel("http://www.biquge.com.tw/lishi/",4);
+        bookService.addHotABookByModel("http://www.biquge.com.tw/wangyou/",5);
+        bookService.addHotABookByModel("http://www.biquge.com.tw/kehuan/",6);
+        bookService.addHotABookByModel("http://www.biquge.com.tw/kongbu/",7);
+        bookService.addHotABookByModel("http://www.biquge.com.tw/quanben/",8);
     }
 }

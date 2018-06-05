@@ -21,10 +21,14 @@ public class Book {
 
     private String bookDescribe;
 
+    private String myBookUrl;
+
+    private String myBookImgUrl;
+
     public Book() {
     }
 
-    public Book(String bookName, String bookUrl, Integer bookLevel, String bookImgUrl, String bookUser, Date modifyDate, Integer bookType, String bookDescribe) {
+    public Book(String bookName, String bookUrl, Integer bookLevel, String bookImgUrl, String bookUser, Date modifyDate, Integer bookType, String bookDescribe, String myBookUrl, String myBookImgUrl) {
         this.bookName = bookName;
         this.bookUrl = bookUrl;
         this.bookLevel = bookLevel;
@@ -33,6 +37,8 @@ public class Book {
         this.modifyDate = modifyDate;
         this.bookType = bookType;
         this.bookDescribe = bookDescribe;
+        this.myBookUrl = myBookUrl;
+        this.myBookImgUrl = myBookImgUrl;
     }
 
     public Integer getId() {
@@ -107,6 +113,22 @@ public class Book {
         this.bookDescribe = bookDescribe == null ? null : bookDescribe.trim();
     }
 
+    public String getMyBookUrl() {
+        return myBookUrl;
+    }
+
+    public void setMyBookUrl(String myBookUrl) {
+        this.myBookUrl = myBookUrl == null ? null : myBookUrl.trim();
+    }
+
+    public String getMyBookImgUrl() {
+        return myBookImgUrl;
+    }
+
+    public void setMyBookImgUrl(String myBookImgUrl) {
+        this.myBookImgUrl = myBookImgUrl == null ? null : myBookImgUrl.trim();
+    }
+
     @Override
     public String toString() {
         return "Book{" +
@@ -119,6 +141,8 @@ public class Book {
                 ", modifyDate=" + modifyDate +
                 ", bookType=" + bookType +
                 ", bookDescribe='" + bookDescribe + '\'' +
+                ", myBookUrl='" + myBookUrl + '\'' +
+                ", myBookImgUrl='" + myBookImgUrl + '\'' +
                 '}';
     }
 }

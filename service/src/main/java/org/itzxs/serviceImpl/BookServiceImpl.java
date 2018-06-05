@@ -129,4 +129,25 @@ public class BookServiceImpl implements BookService{
         }
         return true;
     }
+
+    @Override
+    public boolean addHotABookByModel(String url,int type){
+        GetBQGNovel getBQGNovel = new GetBQGNovel();
+        List<Book> books = getBQGNovel.getHotNovelByModel(url);
+        List<Integer> ids = bookMapper.selectIdByLevelAndType(4,type);
+        if(books.size() == ids.size()){
+            for (int i = 0; i < ids.size(); i++) {
+                books.get(i).setId(ids.get(i));
+                books.get(i).setModifyDate(new Date());
+            }
+            int num = bookMapper.updateBooks(books);
+            if(num <= 0){
+                return false;
+            }
+        }else{
+            System.out.println("爬取的网站格式修改，需要重新编写代码");
+            return false;
+        }
+        return true;
+    }
 }

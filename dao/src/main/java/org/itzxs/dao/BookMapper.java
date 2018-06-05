@@ -1,5 +1,6 @@
 package org.itzxs.dao;
 
+import org.apache.ibatis.annotations.Param;
 import org.itzxs.entity.Book;
 
 import java.util.List;
@@ -23,4 +24,5 @@ public interface BookMapper {
 
     List<Integer> selectIdByLevel(Integer level);
 
+    List<Integer> selectIdByLevelAndType(@Param("level") Integer level, @Param("type") Integer type);
 }
