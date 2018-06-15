@@ -1,21 +1,26 @@
 package org.itzxs.entity;
 
+import java.util.Date;
+
 public class Chapter {
     private Integer id;
 
-    private int bookId;
+    private Integer bookId;
 
     private String bookChapterName;
 
     private String bookChapterContent;
 
+    private Date modifyDate;
+
     public Chapter() {
     }
 
-    public Chapter(int bookId, String bookChapterName, String bookChapterContent) {
+    public Chapter(Integer bookId, String bookChapterName, String bookChapterContent, Date modifyDate) {
         this.bookId = bookId;
         this.bookChapterName = bookChapterName;
         this.bookChapterContent = bookChapterContent;
+        this.modifyDate = modifyDate;
     }
 
     public Integer getId() {
@@ -26,11 +31,11 @@ public class Chapter {
         this.id = id;
     }
 
-    public int getBookId() {
+    public Integer getBookId() {
         return bookId;
     }
 
-    public void setBookId(int bookId) {
+    public void setBookId(Integer bookId) {
         this.bookId = bookId;
     }
 
@@ -48,5 +53,24 @@ public class Chapter {
 
     public void setBookChapterContent(String bookChapterContent) {
         this.bookChapterContent = bookChapterContent == null ? null : bookChapterContent.trim();
+    }
+
+    public Date getModifyDate() {
+        return modifyDate;
+    }
+
+    public void setModifyDate(Date modifyDate) {
+        this.modifyDate = modifyDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Chapter{" +
+                "id=" + id +
+                ", bookId=" + bookId +
+                ", bookChapterName='" + bookChapterName + '\'' +
+                ", bookChapterContent='" + bookChapterContent + '\'' +
+                ", modifyDate=" + modifyDate +
+                '}';
     }
 }

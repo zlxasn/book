@@ -256,4 +256,10 @@
   <select id="selectIdByLevelAndType" parameterType="java.lang.Integer" resultType="java.lang.Integer">
     select id from t_book where book_level = #{level,jdbcType=INTEGER} AND book_type = #{type,jdbcType=INTEGER}
   </select>
+  <!--<select id="selectAllBook" resultType="org.itzxs.entity.Book">
+    select id,book_url as bookUrl from t_book
+  </select>-->
+  <select id="selectAllBook" resultMap="BaseResultMap">
+    select id,book_url as bookUrl from t_book
+  </select>
 </mapper>

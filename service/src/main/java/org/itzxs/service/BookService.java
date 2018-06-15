@@ -12,9 +12,11 @@ public interface BookService {
 
     boolean addHotBook();
 
-    public boolean addEveryModelHotBook();
+    boolean addEveryModelHotBook();
 
-    public boolean addEveryModelBook();
+    boolean addEveryModelBook();
 
-    public boolean addHotABookByModel(String url,int type);
+    boolean addHotABookByModel(String url,int type);
+
+    List<Book> getBooks();
 }

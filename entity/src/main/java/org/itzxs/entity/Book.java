@@ -28,6 +28,20 @@ public class Book {
     public Book() {
     }
 
+    public Book(Integer id, String bookName, String bookUrl, Integer bookLevel, String bookImgUrl, String bookUser, Date modifyDate, Integer bookType, String bookDescribe, String myBookUrl, String myBookImgUrl) {
+        this.id = id;
+        this.bookName = bookName;
+        this.bookUrl = bookUrl;
+        this.bookLevel = bookLevel;
+        this.bookImgUrl = bookImgUrl;
+        this.bookUser = bookUser;
+        this.modifyDate = modifyDate;
+        this.bookType = bookType;
+        this.bookDescribe = bookDescribe;
+        this.myBookUrl = myBookUrl;
+        this.myBookImgUrl = myBookImgUrl;
+    }
+
     public Book(String bookName, String bookUrl, Integer bookLevel, String bookImgUrl, String bookUser, Date modifyDate, Integer bookType, String bookDescribe, String myBookUrl, String myBookImgUrl) {
         this.bookName = bookName;
         this.bookUrl = bookUrl;

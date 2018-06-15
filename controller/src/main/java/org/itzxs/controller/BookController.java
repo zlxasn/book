@@ -34,6 +34,7 @@ public class BookController {
 //        bookService.addHotABookByModel();
 //        bookService.addEveryModelHotBook();
 //        bookService.addHotBook();
+        List<Book> books = bookService.getBooks();
         mv.setViewName("/demo");
         return mv;
     }

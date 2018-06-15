@@ -2,43 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a25c27-8c77-4dc9-a47d-cbcbd3b7c360" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/ChapterController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/service/ChapterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/ChapterServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/UpdateChapterRunable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/GetChapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/BookController.class" afterPath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/BookController.class" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/BookController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-dao-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-entity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-entity-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-service-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-util-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-util-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/classes/main/org/itzxs/dao/BookMapper.class" afterPath="$PROJECT_DIR$/dao/build/classes/main/org/itzxs/dao/BookMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/classes/main/org/itzxs/dao/ChapterMapper.class" afterPath="$PROJECT_DIR$/dao/build/classes/main/org/itzxs/dao/ChapterMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/Book.class" afterPath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/Chapter.class" afterPath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/Chapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/service/BookService.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/service/BookService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/serviceImpl/BookServiceImpl.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/serviceImpl/BookServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/task/UpdateBooks.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/task/UpdateBooks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/constant/ParamterConstant.class" afterPath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/constant/ParamterConstant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/util/GetBQGNovel.class" afterPath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/util/GetBQGNovel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/util/Spider.class" afterPath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/util/Spider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/db.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/BookMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/ChapterMapper.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/ChapterMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/system.properties" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/system.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/db.properties" afterPath="$PROJECT_DIR$/controller/build/resources/main/db.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/BookMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/ChapterMapper.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/ChapterMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/system.properties" afterPath="$PROJECT_DIR$/controller/build/resources/main/system.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/controller/src/main/resources/db.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/BookMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/ChapterMapper.xml" afterPath="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/ChapterMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/controller/src/main/resources/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/system.properties" afterPath="$PROJECT_DIR$/controller/src/main/resources/system.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/BookMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/BookMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/ChapterMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/ChapterMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Book.java" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Chapter.java" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Chapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/org/itzxs/service/BookService.java" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/service/BookService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/BookServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/BookServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateBooks.java" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateBooks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/src/main/java/org/itzxs/constant/ParamterConstant.java" afterPath="$PROJECT_DIR$/util/src/main/java/org/itzxs/constant/ParamterConstant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/GetBQGNovel.java" afterPath="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/GetBQGNovel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -154,41 +157,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/BookServiceImpl.java">
+      <file leaf-file-name="ChapterServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/ChapterServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="135" column="47" lean-forward="false" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetBQGNovel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/main/java/org/itzxs/util/GetBQGNovel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="185" column="55" lean-forward="false" selection-start-line="185" selection-start-column="55" selection-end-line="185" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateBooks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateBooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="65">
+              <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -197,26 +170,79 @@
       <file leaf-file-name="ChapterMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/ChapterMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="328">
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/BookMapper.xml">
+      <file leaf-file-name="ChapterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/ChapterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="246" column="11" lean-forward="true" selection-start-line="246" selection-start-column="11" selection-end-line="246" selection-end-column="11" />
+            <state relative-caret-position="210">
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChapterService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/service/ChapterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/js/user/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateChapterRunable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/UpdateChapterRunable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="796">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChapterMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/ChapterMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="104" column="34" lean-forward="true" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
               <folding>
-                <marker date="1528186757864" expanded="true" signature="1371:1473" ph="select from t_book" />
-                <marker date="1528186757864" expanded="true" signature="1560:1616" ph="delete from " />
-                <marker date="1528186757864" expanded="true" signature="1695:2238" ph="insert into t_book... " />
-                <marker date="1528186757864" expanded="true" signature="4299:5397" ph="update t_boo... " />
-                <marker date="1528186757864" expanded="true" signature="5488:6052" ph="update t_boo... " />
-                <marker date="1528186757864" expanded="true" signature="9606:9672" ph="select id fr... t_book" />
-                <marker date="1528186757864" expanded="true" signature="9793:9900" ph="select id fr... t_book" />
+                <marker date="1528427818682" expanded="true" signature="876:981" ph="select from t_chapter" />
+                <marker date="1528427818682" expanded="true" signature="1068:1127" ph="delete from " />
+                <marker date="1528427818682" expanded="true" signature="1209:1487" ph="insert into t_chapter... " />
+                <marker date="1528427818682" expanded="true" signature="2653:3176" ph="update t_cha... " />
+                <marker date="1528427818682" expanded="true" signature="3270:3555" ph="update t_cha... " />
+                <marker date="1528427818682" expanded="true" signature="3626:3702" ph="select from t_chapter" />
+                <marker date="1528427818682" expanded="true" signature="3626:3722" ph="select from t_chapter" />
+                <marker date="1528427818682" expanded="true" signature="3626:3723" ph="select from t_chapter" />
+                <marker date="1528427818682" expanded="true" signature="3886:3993" ph="insert into t_chapter... " />
+                <marker date="1528427818682" expanded="true" signature="3886:4194" ph="insert into t_chapter... " />
               </folding>
             </state>
           </provider>
@@ -228,18 +254,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>findUserByUserName_PassWord</find>
-      <find>font</find>
       <find>./帐号登录_files</find>
       <find>扫码</find>
       <find>公司</find>
@@ -268,6 +292,8 @@
       <find>login-user</find>
       <find>./起点中文网_阅文集团旗下网站_files</find>
       <find>insertBooks</find>
+      <find>selectAllBook</find>
+      <find>insertChapters</find>
     </findStrings>
     <replaceStrings>
       <replace>url</replace>
@@ -1572,14 +1598,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/StringUtil.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/LoginValidataFilterTest.java" />
-        <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/exception/ServiceRuntimeException.java" />
-        <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/exception/ExceptionEnum.java" />
-        <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/exception/ServiceExceptionEnum.java" />
-        <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/PropertiesUtil.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/itzxs/login.jsp" />
         <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/result/JsonResult.java" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/itzxs/book/bookList.html" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/itzxs/login.html" />
@@ -1608,21 +1626,29 @@
         <option value="$PROJECT_DIR$/controller/src/main/webapp/css/user/index.css" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/user/index.html" />
         <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/Spider.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/resources/system.properties" />
         <option value="$PROJECT_DIR$/util/build.gradle" />
         <option value="$PROJECT_DIR$/entity/src/main/java/org/itzxs/dto/BookDTO.java" />
         <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/task/UpdateBooks.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/ChapterMapper.xml" />
         <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/constant/ParamterConstant.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/service/BookService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateBooks.java" />
         <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/GetBQGNovel.java" />
-        <option value="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Book.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/service/ChapterService.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/BookMapper.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/ChapterMapper.java" />
+        <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/GetChapter.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/resources/system.properties" />
+        <option value="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Book.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/service/BookService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java" />
         <option value="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/BookMapper.xml" />
+        <option value="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Chapter.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/ChapterMapper.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/ChapterController.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/UpdateChapterRunable.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/ChapterServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -1660,7 +1686,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1683,7 +1711,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1697,7 +1725,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1715,7 +1743,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1737,7 +1765,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1753,7 +1781,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="itzxs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itzxs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serviceImpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1809,6 +1871,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1892,11 +1958,13 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1911,23 +1979,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\my_github_repository\book\controller\src\main\webapp\js\user" />
-      <recent name="D:\my_github_repository\book\controller\src\main\webapp\js" />
-      <recent name="D:\my_github_repository\book\controller\src\main\webapp\imgs" />
-      <recent name="D:\my_github_repository\book\controller\src\main\webapp\css\user" />
-      <recent name="D:\my_github_repository\book\controller\src\main\webapp\user" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.itzxs.util" />
-      <recent name="org.itzxs.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\my_github_repository\book\controller\src\main\resources\org\itzxs\mapper" />
       <recent name="D:\my_github_repository\book\dao\src\main\java\org\itzxs\dao" />
       <recent name="D:\my_github_repository\book\entity\src\main\java\org\itzxs\entity" />
       <recent name="D:\my_github_repository\book\controller\src\main\webapp\book_files" />
       <recent name="D:\my_github_repository\book\controller\src\main\webapp\imgs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.itzxs.util" />
+      <recent name="org.itzxs.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_github_repository\book\controller\src\main\webapp\js\user" />
+      <recent name="D:\my_github_repository\book\controller\src\main\webapp\js" />
+      <recent name="D:\my_github_repository\book\controller\src\main\webapp\imgs" />
+      <recent name="D:\my_github_repository\book\controller\src\main\webapp\css\user" />
+      <recent name="D:\my_github_repository\book\controller\src\main\webapp\user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1943,46 +2011,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat_book">
-    <configuration default="false" name="Base64Fun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.itzxs.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.itzxs.util.Base64Fun" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="util_main" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="GetBQGNovel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.itzxs.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.itzxs.util.GetBQGNovel" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="util_main" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.45" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -2448,26 +2476,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Spider" type="Application" factoryName="Application" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.itzxs.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.itzxs.util.Spider" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="util_main" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="tomcat_book" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.45" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -2543,19 +2551,10 @@
         </option>
       </method>
     </configuration>
-    <list size="5">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JAR Application.json_simple-1.1.jar" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Spider" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.tomcat_book" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Base64Fun" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GetBQGNovel" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat_book" />
     </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.GetBQGNovel" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Base64Fun" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -2602,20 +2601,26 @@
       <workItem from="1528115041229" duration="8158000" />
       <workItem from="1528161734749" duration="1796000" />
       <workItem from="1528186242934" duration="574000" />
+      <workItem from="1528253651014" duration="607000" />
+      <workItem from="1528264660703" duration="17597000" />
+      <workItem from="1528334939620" duration="1102000" />
+      <workItem from="1528427567732" duration="2985000" />
+      <workItem from="1528446419971" duration="68000" />
+      <workItem from="1528960440155" duration="631000" />
+      <workItem from="1529048644628" duration="4455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165706000" />
+    <option name="totallyTimeSpent" value="193151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27548808" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2626,8 +2631,9 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40455532" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38503253" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2636,7 +2642,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2646421" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18496802" sideWeight="0.49423632" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19989339" sideWeight="0.49423632" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5057637" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2646,7 +2652,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33188722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2698,7 +2703,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="50" />
+      <option name="time" value="66" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2707,55 +2712,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.6.RELEASE/d21d57199535402a4afdb4e9406d6f5276a5b205/spring-aop-4.0.6.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.6.RELEASE/ae723c80e57780824d3e5bd62a07233981b0bb5f/spring-tx-4.0.6.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="267" column="13" lean-forward="true" selection-start-line="267" selection-start-column="13" selection-end-line="267" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/UserInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/main/java/org/itzxs/result/JsonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/js/user/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/UserInformationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -2815,20 +2771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/js/user/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/css/user/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/user/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -2847,13 +2789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="55" column="67" lean-forward="false" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -2920,13 +2855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entity/src/main/java/org/itzxs/dto/ChapterDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -2939,9 +2867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4560">
           <caret line="152" column="40" lean-forward="true" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
-          <folding>
-            <marker date="1527837659356" expanded="true" signature="1765:2520" ph="insert into t_user_information... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2949,9 +2874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1527587942964" expanded="true" signature="636:840" ph="insert into t_user_login... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2963,56 +2885,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/ChapterMapper.xml">
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/org/itzxs/constant/ParamterConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-          <folding>
-            <marker date="1528113437208" expanded="true" signature="784:889" ph="select from t_chapter" />
-            <marker date="1528113437208" expanded="true" signature="976:1035" ph="delete from " />
-            <marker date="1528113437208" expanded="true" signature="1117:1348" ph="insert into t_chapter... " />
-            <marker date="1528113437208" expanded="true" signature="2351:2768" ph="update t_cha... " />
-            <marker date="1528113437208" expanded="true" signature="2862:3093" ph="update t_cha... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="132" column="18" lean-forward="false" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="135" column="47" lean-forward="false" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="570">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/src/main/java/org/itzxs/util/GetBQGNovel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="185" column="55" lean-forward="false" selection-start-line="185" selection-start-column="55" selection-end-line="185" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/main/java/org/itzxs/constant/ParamterConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -3020,49 +2903,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1680">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="104" lean-forward="false" selection-start-line="11" selection-start-column="104" selection-end-line="11" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="45" column="74" lean-forward="false" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="155" column="5" lean-forward="false" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/css/user/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/js/user/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/service/ChapterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/main/java/org/itzxs/util/GetChapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/BookMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="26" column="101" lean-forward="false" selection-start-line="26" selection-start-column="101" selection-end-line="26" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="439">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/ChapterMapper.java">
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Chapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="439">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/ChapterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/BookMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="246" column="11" lean-forward="true" selection-start-line="246" selection-start-column="11" selection-end-line="246" selection-end-column="11" />
+        <state relative-caret-position="238">
+          <caret line="250" column="12" lean-forward="true" selection-start-line="250" selection-start-column="12" selection-end-line="250" selection-end-column="12" />
           <folding>
-            <marker date="1528186757864" expanded="true" signature="1371:1473" ph="select from t_book" />
-            <marker date="1528186757864" expanded="true" signature="1560:1616" ph="delete from " />
-            <marker date="1528186757864" expanded="true" signature="1695:2238" ph="insert into t_book... " />
-            <marker date="1528186757864" expanded="true" signature="4299:5397" ph="update t_boo... " />
-            <marker date="1528186757864" expanded="true" signature="5488:6052" ph="update t_boo... " />
-            <marker date="1528186757864" expanded="true" signature="9606:9672" ph="select id fr... t_book" />
-            <marker date="1528186757864" expanded="true" signature="9793:9900" ph="select id fr... t_book" />
+            <marker date="1528272280455" expanded="true" signature="1371:1473" ph="select from t_book" />
+            <marker date="1528272280455" expanded="true" signature="1560:1616" ph="delete from " />
+            <marker date="1528272280455" expanded="true" signature="1695:2238" ph="insert into t_book... " />
+            <marker date="1528272280455" expanded="true" signature="4299:5397" ph="update t_boo... " />
+            <marker date="1528272280455" expanded="true" signature="5488:6052" ph="update t_boo... " />
+            <marker date="1528272280455" expanded="true" signature="9606:9672" ph="select id fr... t_book" />
+            <marker date="1528272280455" expanded="true" signature="9793:9900" ph="select id fr... t_book" />
+            <marker date="1528272280455" expanded="true" signature="9986:10027" ph="select id,bo... t_book" />
+            <marker date="1528272280455" expanded="true" signature="10103:10144" ph="select id,bo... t_book" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/ChapterMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="104" column="34" lean-forward="true" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+          <folding>
+            <marker date="1528427818682" expanded="true" signature="876:981" ph="select from t_chapter" />
+            <marker date="1528427818682" expanded="true" signature="1068:1127" ph="delete from " />
+            <marker date="1528427818682" expanded="true" signature="1209:1487" ph="insert into t_chapter... " />
+            <marker date="1528427818682" expanded="true" signature="2653:3176" ph="update t_cha... " />
+            <marker date="1528427818682" expanded="true" signature="3270:3555" ph="update t_cha... " />
+            <marker date="1528427818682" expanded="true" signature="3626:3702" ph="select from t_chapter" />
+            <marker date="1528427818682" expanded="true" signature="3626:3722" ph="select from t_chapter" />
+            <marker date="1528427818682" expanded="true" signature="3626:3723" ph="select from t_chapter" />
+            <marker date="1528427818682" expanded="true" signature="3886:3993" ph="insert into t_chapter... " />
+            <marker date="1528427818682" expanded="true" signature="3886:4194" ph="insert into t_chapter... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/ChapterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/UpdateChapterRunable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/ChapterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>

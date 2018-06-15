@@ -25,4 +25,6 @@ public interface BookMapper {
     List<Integer> selectIdByLevel(Integer level);
 
     List<Integer> selectIdByLevelAndType(@Param("level") Integer level, @Param("type") Integer type);
+
+    List<Book> selectAllBook();
 }

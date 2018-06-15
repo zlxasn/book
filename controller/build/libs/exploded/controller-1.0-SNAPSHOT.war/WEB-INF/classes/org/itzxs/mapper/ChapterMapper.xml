@@ -3,12 +3,13 @@
 <mapper namespace="org.itzxs.dao.ChapterMapper" >
   <resultMap id="BaseResultMap" type="org.itzxs.entity.Chapter" >
     <id column="id" property="id" jdbcType="INTEGER" />
-    <result column="book_id" property="bookId" jdbcType="VARCHAR" />
+    <result column="book_id" property="bookId" jdbcType="INTEGER" />
     <result column="book_chapter_name" property="bookChapterName" jdbcType="VARCHAR" />
     <result column="book_chapter_content" property="bookChapterContent" jdbcType="VARCHAR" />
+    <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, book_id, book_chapter_name, book_chapter_content
+    id, book_id, book_chapter_name, book_chapter_content, modify_date
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
@@ -22,9 +23,9 @@
   </delete>
   <insert id="insert" parameterType="org.itzxs.entity.Chapter" >
     insert into t_chapter (id, book_id, book_chapter_name, 
-      book_chapter_content)
-    values (#{id,jdbcType=INTEGER}, #{bookId,jdbcType=VARCHAR}, #{bookChapterName,jdbcType=VARCHAR}, 
-      #{bookChapterContent,jdbcType=VARCHAR})
+      book_chapter_content, modify_date)
+    values (#{id,jdbcType=INTEGER}, #{bookId,jdbcType=INTEGER}, #{bookChapterName,jdbcType=VARCHAR}, 
+      #{bookChapterContent,jdbcType=VARCHAR}, #{modifyDate,jdbcType=TIMESTAMP})
   </insert>
   <insert id="insertSelective" parameterType="org.itzxs.entity.Chapter" >
     insert into t_chapter
@@ -41,13 +42,16 @@
       <if test="bookChapterContent != null" >
         book_chapter_content,
       </if>
+      <if test="modifyDate != null" >
+        modify_date,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         #{id,jdbcType=INTEGER},
       </if>
       <if test="bookId != null" >
-        #{bookId,jdbcType=VARCHAR},
+        #{bookId,jdbcType=INTEGER},
       </if>
       <if test="bookChapterName != null" >
         #{bookChapterName,jdbcType=VARCHAR},
@@ -55,13 +59,16 @@
       <if test="bookChapterContent != null" >
         #{bookChapterContent,jdbcType=VARCHAR},
       </if>
+      <if test="modifyDate != null" >
+        #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
     </trim>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="org.itzxs.entity.Chapter" >
     update t_chapter
     <set >
       <if test="bookId != null" >
-        book_id = #{bookId,jdbcType=VARCHAR},
+        book_id = #{bookId,jdbcType=INTEGER},
       </if>
       <if test="bookChapterName != null" >
         book_chapter_name = #{bookChapterName,jdbcType=VARCHAR},
@@ -69,26 +76,33 @@
       <if test="bookChapterContent != null" >
         book_chapter_content = #{bookChapterContent,jdbcType=VARCHAR},
       </if>
+      <if test="modifyDate != null" >
+        modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="org.itzxs.entity.Chapter" >
     update t_chapter
-    set book_id = #{bookId,jdbcType=VARCHAR},
+    set book_id = #{bookId,jdbcType=INTEGER},
       book_chapter_name = #{bookChapterName,jdbcType=VARCHAR},
-      book_chapter_content = #{bookChapterContent,jdbcType=VARCHAR}
+      book_chapter_content = #{bookChapterContent,jdbcType=VARCHAR},
+      modify_date = #{modifyDate,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="selectLase" resultMap="BaseResultMap" >
+    select
+    <include refid="Base_Column_List" />
+    from t_chapter
+    ORDER BY modify_date DESC
+  </select>
   <insert id="insertChapters" parameterType="org.itzxs.entity.Chapter" >
-    insert into t_chapter
-    (book_id,
-        book_chapter_name,
-        book_chapter_content)
-    VALUES
-      <foreach item="chapter" collection="chapters" separator="," >
-        (#{chapter.bookId,jdbcType=VARCHAR},
-          #{chapter.bookChapterName,jdbcType=VARCHAR},
-          #{chapter.bookChapterContent,jdbcType=VARCHAR})
-      </foreach>
+    <foreach collection="list" item="item" index="index" separator=",">
+      insert into t_chapter (id, book_id, book_chapter_name,
+      book_chapter_content, modify_date)
+      value
+      (#{item.id,jdbcType=INTEGER}, #{item.bookId,jdbcType=INTEGER}, #{item.bookChapterName,jdbcType=VARCHAR},
+      #{item.bookChapterContent,jdbcType=VARCHAR}, #{item.modifyDate,jdbcType=TIMESTAMP})
+    </foreach>
   </insert>
 </mapper>

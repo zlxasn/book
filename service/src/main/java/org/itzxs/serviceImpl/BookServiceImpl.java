@@ -150,4 +150,8 @@ public class BookServiceImpl implements BookService{
         }
         return true;
     }
+
+    public List<Book> getBooks(){
+        return bookMapper.selectAllBook();
+    }
 }
