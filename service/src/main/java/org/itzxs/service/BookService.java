@@ -18,5 +18,7 @@ public interface BookService {
 
     boolean addHotABookByModel(String url,int type);
 
+    public boolean addBookByModel(String url,int type);
+
     List<Book> getBooks();
 }

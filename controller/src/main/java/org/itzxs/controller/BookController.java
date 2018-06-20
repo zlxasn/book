@@ -34,7 +34,15 @@ public class BookController {
 //        bookService.addHotABookByModel();
 //        bookService.addEveryModelHotBook();
 //        bookService.addHotBook();
-        List<Book> books = bookService.getBooks();
+//        List<Book> books = bookService.getBooks();
+        /*bookService.addBookByModel("http://www.biquge.com.tw/xuanhuan/",1);
+        bookService.addBookByModel("http://www.biquge.com.tw/xiuzhen/",2);
+        bookService.addBookByModel("http://www.biquge.com.tw/dushi/",3);
+        bookService.addBookByModel("http://www.biquge.com.tw/lishi/",4);
+        bookService.addBookByModel("http://www.biquge.com.tw/wangyou/",5);
+        bookService.addBookByModel("http://www.biquge.com.tw/kehuan/",6);
+        bookService.addBookByModel("http://www.biquge.com.tw/kongbu/",7);
+        bookService.addBookByModel("http://www.biquge.com.tw/quanben/",8);*/
         mv.setViewName("/demo");
         return mv;
     }

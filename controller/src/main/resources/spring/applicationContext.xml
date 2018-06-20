@@ -37,14 +37,19 @@
 		</property>
 	</bean>
 	<!--tomcat jdbc pool dataSource-->
-	<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource" destroy-method="close">
-		<property name="poolProperties">
-			<bean class="org.apache.tomcat.jdbc.pool.PoolProperties">
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+		<!--<property name="poolProperties">-->
+			<!--<bean class="org.apache.tomcat.jdbc.pool.PoolProperties">-->
 				<property name="driverClassName" value="${connection.driverClassName}"/>
-				<property name="url" value="${connection.url}"/>
+				<property name="jdbcUrl" value="${connection.url}"/>
 				<property name="username" value="${connection.username}"/>
 				<property name="password" value="${connection.password}"/>
-				<property name="maxActive" value="${connection.maxActive}"/>
+				<property name="readOnly" value="false"></property>
+				<property name="connectionTimeout" value="30000"></property>
+				<property name="idleTimeout" value="600000"></property>
+				<property name="maxLifetime" value="1800000"></property>
+				<property name="maximumPoolSize" value="15"></property>
+				<!--<property name="maxActive" value="${connection.maxActive}"/>
 				<property name="minIdle" value="${connection.minIdle}"/>
 				<property name="initialSize" value="${connection.initialSize}"/>
 				<property name="maxWait" value="${connection.maxWait}"/>
@@ -57,12 +62,12 @@
 				<property name="removeAbandoned" value="true"/>
 				<property name="removeAbandonedTimeout" value="60"/>
 				<property name="logAbandoned" value="false"/>
-				<!--tomcat jdbc pool Enhanced Attributes-->
+				&lt;!&ndash;tomcat jdbc pool Enhanced Attributes&ndash;&gt;
 				<property name="jmxEnabled" value="true"/>
 				<property name="validationInterval" value="30000"/>
-				<property name="jdbcInterceptors" value="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"/>
-			</bean>
-		</property>
+				<property name="jdbcInterceptors" value="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"/>-->
+			<!--</bean>-->
+		<!--</property>-->
 	</bean>
 	<!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />

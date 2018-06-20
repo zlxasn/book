@@ -27,7 +27,9 @@ public class GetChapter {
                 Chapter chapter = new Chapter();
                 chapter.setBookId(bookId);
                 chapter.setBookChapterName(e.text());
-                chapter.setBookChapterContent("http://www.biquge.com.tw"+e.attr("href"));
+                Document document = Jsoup.parse(new URL("http://www.biquge.com.tw"+e.attr("href")).openStream(),"GBK","http://www.biquge.com.tw"+e.attr("href"));
+                Elements content = document.select("#content");
+                chapter.setBookChapterContent(content.text());
                 chapter.setModifyDate(new Date());
                 chapters.add(chapter);
             }

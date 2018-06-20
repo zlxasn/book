@@ -20,4 +20,6 @@ public interface ChapterMapper {
     Chapter selectLast();
 
     int insertChapters(List<Chapter> chapters);
+
+    int deleteAll();
 }

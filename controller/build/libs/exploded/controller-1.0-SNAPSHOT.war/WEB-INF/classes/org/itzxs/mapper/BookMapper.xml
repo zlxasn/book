@@ -167,7 +167,7 @@
     <foreach collection="list" item="item" index="index" separator=",">
       (#{item.bookName,jdbcType=VARCHAR}, #{item.bookUrl,jdbcType=VARCHAR},#{item.bookLevel,jdbcType=INTEGER},
       #{item.bookImgUrl,jdbcType=VARCHAR},#{item.bookUser,jdbcType=VARCHAR},#{item.modifyDate,jdbcType=DATE},
-      #{item.bookType,jdbcType=INTEGER},#{item.bookDescribe,jdbcType=VARCHAR},#{myBookUrl,jdbcType=VARCHAR},#{myBookImgUrl,jdbcType=VARCHAR})
+      #{item.bookType,jdbcType=INTEGER},#{item.bookDescribe,jdbcType=VARCHAR},#{item.myBookUrl,jdbcType=VARCHAR},#{item.myBookImgUrl,jdbcType=VARCHAR})
     </foreach>
   </insert>
   <update id="updateBooks" parameterType="java.util.List">

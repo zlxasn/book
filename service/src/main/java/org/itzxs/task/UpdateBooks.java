@@ -17,7 +17,7 @@ public class UpdateBooks {
     BookService bookService;
 
     /**
-     * 定时任务，每一个小时更新一次
+     * 定时任务，每一天更新一次
      */
     @Scheduled(fixedRate = 24 * 60 * 60 * 1000)
     public void fixedUpdateHotBooks() {
@@ -32,5 +32,14 @@ public class UpdateBooks {
         bookService.addHotABookByModel("http://www.biquge.com.tw/kehuan/",6);
         bookService.addHotABookByModel("http://www.biquge.com.tw/kongbu/",7);
         bookService.addHotABookByModel("http://www.biquge.com.tw/quanben/",8);
+        bookService.addBookByModel("http://www.biquge.com.tw/xuanhuan/",1);
+        bookService.addBookByModel("http://www.biquge.com.tw/xiuzhen/",2);
+        bookService.addBookByModel("http://www.biquge.com.tw/dushi/",3);
+        bookService.addBookByModel("http://www.biquge.com.tw/lishi/",4);
+        bookService.addBookByModel("http://www.biquge.com.tw/wangyou/",5);
+        bookService.addBookByModel("http://www.biquge.com.tw/kehuan/",6);
+        bookService.addBookByModel("http://www.biquge.com.tw/kongbu/",7);
+        bookService.addBookByModel("http://www.biquge.com.tw/quanben/",8);
+
     }
 }

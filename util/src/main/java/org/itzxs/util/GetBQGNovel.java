@@ -39,7 +39,7 @@ public class GetBQGNovel {
     }
 
     /**
-     * 获取热点小说
+     * 获取首页热点小说
      * @param url
      * @return
      */
@@ -68,6 +68,11 @@ public class GetBQGNovel {
         }
     }
 
+    /**
+     * 获取首页每个模块的热点小说
+     * @param url
+     * @return
+     */
     public List<Book> getEveryModelHotNovel(String url) {
         try {
             //解析返回结果为document
@@ -109,6 +114,11 @@ public class GetBQGNovel {
         }
     }
 
+    /**
+     * 获取首页每个模块的小说
+     * @param url
+     * @return
+     */
     public List<Book> getEveryModelNovel(String url) {
         try {
             //解析返回结果为document
@@ -143,6 +153,11 @@ public class GetBQGNovel {
         }
     }
 
+    /**
+     * 获取每个模块的热点小说
+     * @param url
+     * @return
+     */
     public List<Book> getHotNovelByModel(String url) {
         try {
             //解析返回结果为document
@@ -173,9 +188,9 @@ public class GetBQGNovel {
                 }else if(url.contains("kehuan")){
                     book.setBookType(ParamterConstant.KEHUAN_NOVEL_CODE);
                 }else if(url.contains("kongbu")){
-                    book.setBookType(ParamterConstant.KONGBU_NOVLE_CODE);
+                    book.setBookType(ParamterConstant.KONGBU_NOVEL_CODE);
                 }else if(url.contains("quanben")){
-                    book.setBookType(ParamterConstant.QUANBEN_NOVLE_CODE);
+                    book.setBookType(ParamterConstant.QUANBEN_NOVEL_CODE);
                 }
                 book.setBookDescribe(bookDescribe.get(i).text());
                 books.add(book);
@@ -187,9 +202,47 @@ public class GetBQGNovel {
         }
     }
 
+    public List<Book> getNovelByModel(String url,int type) {
+        try {
+            //解析返回结果为document
+            Document doc = Jsoup.parse(new URL(url).openStream(),"GBK",url);
+            Elements bookNameAndUrl = doc.select(".s2 a");
+            Elements bookUser = doc.select(".s5");
+            List<Book> books = new ArrayList<>();
+            for (int i = 0; i < bookNameAndUrl.size(); i++) {
+                Book book = new Book();
+                book.setBookName(bookNameAndUrl.get(i).text());
+                book.setBookLevel(5);
+                book.setBookUrl(bookNameAndUrl.get(i).attr("href"));
+                book.setModifyDate(new Date());
+                book.setBookType(type);
+                books.add(book);
+            }
+            return books;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void main(String[] args) {
         GetBQGNovel getBQGNovel  = new GetBQGNovel();
-        List<Book> books = getBQGNovel.getHotNovelByModel("http://www.biquge.com.tw/xuanhuan/");
+        List<Book> books = new ArrayList<>();
+        List<Book> booksByModel1 = getBQGNovel.getNovelByModel("http://www.biquge.com.tw/xuanhuan/",1);
+        List<Book> booksByModel2 = getBQGNovel.getNovelByModel("http://www.biquge.com.tw/xiuzhen/",2);
+        List<Book> booksByModel3 = getBQGNovel.getNovelByModel("http://www.biquge.com.tw/dushi/",3);
+        List<Book> booksByModel4 = getBQGNovel.getNovelByModel("http://www.biquge.com.tw/lishi/",4);
+        List<Book> booksByModel5 = getBQGNovel.getNovelByModel("http://www.biquge.com.tw/wangyou/",5);
+        List<Book> booksByModel6 = getBQGNovel.getNovelByModel("http://www.biquge.com.tw/kehuan/",6);
+        List<Book> booksByModel7 = getBQGNovel.getNovelByModel("http://www.biquge.com.tw/kongbu/",7);
+        List<Book> booksByModel8 = getBQGNovel.getNovelByModel("http://www.biquge.com.tw/quanben/",8);
+        books.addAll(booksByModel1);
+        books.addAll(booksByModel2);
+        books.addAll(booksByModel3);
+        books.addAll(booksByModel4);
+        books.addAll(booksByModel5);
+        books.addAll(booksByModel6);
+        books.addAll(booksByModel7);
+        books.addAll(booksByModel8);
         System.out.println(books.size());
     }
 

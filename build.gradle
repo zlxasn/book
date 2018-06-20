@@ -103,6 +103,8 @@ subprojects {
         //连接池
         compile "com.alibaba:druid:1.0.12"
 
+        compile "com.zaxxer:HikariCP:2.4.7"
+
         //格式化对象，方便日志输出
         compile "com.alibaba:fastjson:1.1.41"
 
