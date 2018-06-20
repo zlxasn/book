@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.itzxs.dao.BookMapper" >
+  <resultMap id="BaseResultMap" type="org.itzxs.entity.Book" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="book_name" property="bookName" jdbcType="VARCHAR" />
+    <result column="book_url" property="bookUrl" jdbcType="VARCHAR" />
+    <result column="book_level" property="bookLevel" jdbcType="INTEGER" />
+    <result column="book_img_url" property="bookImgUrl" jdbcType="VARCHAR" />
+    <result column="book_user" property="bookUser" jdbcType="VARCHAR" />
+    <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
+    <result column="book_type" property="bookType" jdbcType="INTEGER" />
+    <result column="book_describe" property="bookDescribe" jdbcType="VARCHAR" />
+    <result column="my_book_url" property="myBookUrl" jdbcType="VARCHAR" />
+    <result column="my_book_img_url" property="myBookImgUrl" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, book_name, book_url, book_level, book_img_url, book_user, modify_date, book_type, 
+    book_describe, my_book_url, my_book_img_url
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_book
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_book
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="org.itzxs.entity.Book" >
+    insert into t_book (id, book_name, book_url, 
+      book_level, book_img_url, book_user, 
+      modify_date, book_type, book_describe, 
+      my_book_url, my_book_img_url)
+    values (#{id,jdbcType=INTEGER}, #{bookName,jdbcType=VARCHAR}, #{bookUrl,jdbcType=VARCHAR}, 
+      #{bookLevel,jdbcType=INTEGER}, #{bookImgUrl,jdbcType=VARCHAR}, #{bookUser,jdbcType=VARCHAR}, 
+      #{modifyDate,jdbcType=TIMESTAMP}, #{bookType,jdbcType=INTEGER}, #{bookDescribe,jdbcType=VARCHAR}, 
+      #{myBookUrl,jdbcType=VARCHAR}, #{myBookImgUrl,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="org.itzxs.entity.Book" >
+    insert into t_book
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="bookName != null" >
+        book_name,
+      </if>
+      <if test="bookUrl != null" >
+        book_url,
+      </if>
+      <if test="bookLevel != null" >
+        book_level,
+      </if>
+      <if test="bookImgUrl != null" >
+        book_img_url,
+      </if>
+      <if test="bookUser != null" >
+        book_user,
+      </if>
+      <if test="modifyDate != null" >
+        modify_date,
+      </if>
+      <if test="bookType != null" >
+        book_type,
+      </if>
+      <if test="bookDescribe != null" >
+        book_describe,
+      </if>
+      <if test="myBookUrl != null" >
+        my_book_url,
+      </if>
+      <if test="myBookImgUrl != null" >
+        my_book_img_url,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="bookName != null" >
+        #{bookName,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUrl != null" >
+        #{bookUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookLevel != null" >
+        #{bookLevel,jdbcType=INTEGER},
+      </if>
+      <if test="bookImgUrl != null" >
+        #{bookImgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUser != null" >
+        #{bookUser,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyDate != null" >
+        #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookType != null" >
+        #{bookType,jdbcType=INTEGER},
+      </if>
+      <if test="bookDescribe != null" >
+        #{bookDescribe,jdbcType=VARCHAR},
+      </if>
+      <if test="myBookUrl != null" >
+        #{myBookUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="myBookImgUrl != null" >
+        #{myBookImgUrl,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.itzxs.entity.Book" >
+    update t_book
+    <set >
+      <if test="bookName != null" >
+        book_name = #{bookName,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUrl != null" >
+        book_url = #{bookUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookLevel != null" >
+        book_level = #{bookLevel,jdbcType=INTEGER},
+      </if>
+      <if test="bookImgUrl != null" >
+        book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUser != null" >
+        book_user = #{bookUser,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyDate != null" >
+        modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookType != null" >
+        book_type = #{bookType,jdbcType=INTEGER},
+      </if>
+      <if test="bookDescribe != null" >
+        book_describe = #{bookDescribe,jdbcType=VARCHAR},
+      </if>
+      <if test="myBookUrl != null" >
+        my_book_url = #{myBookUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="myBookImgUrl != null" >
+        my_book_img_url = #{myBookImgUrl,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.itzxs.entity.Book" >
+    update t_book
+    set book_name = #{bookName,jdbcType=VARCHAR},
+      book_url = #{bookUrl,jdbcType=VARCHAR},
+      book_level = #{bookLevel,jdbcType=INTEGER},
+      book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
+      book_user = #{bookUser,jdbcType=VARCHAR},
+      modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+      book_type = #{bookType,jdbcType=INTEGER},
+      book_describe = #{bookDescribe,jdbcType=VARCHAR},
+      my_book_url = #{myBookUrl,jdbcType=VARCHAR},
+      my_book_img_url = #{myBookImgUrl,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <insert id="insertBooks" parameterType="java.util.List">
+    insert into t_book (book_name, book_url,book_level,book_img_url,book_user,modify_date,book_type,book_describe,my_book_url,my_book_img_url)
+    values
+    <foreach collection="list" item="item" index="index" separator=",">
+      (#{item.bookName,jdbcType=VARCHAR}, #{item.bookUrl,jdbcType=VARCHAR},#{item.bookLevel,jdbcType=INTEGER},
+      #{item.bookImgUrl,jdbcType=VARCHAR},#{item.bookUser,jdbcType=VARCHAR},#{item.modifyDate,jdbcType=DATE},
+      #{item.bookType,jdbcType=INTEGER},#{item.bookDescribe,jdbcType=VARCHAR},#{myBookUrl,jdbcType=VARCHAR},#{myBookImgUrl,jdbcType=VARCHAR})
+    </foreach>
+  </insert>
+  <update id="updateBooks" parameterType="java.util.List">
+    update t_book
+    <trim prefix="set" suffixOverrides=",">
+      <trim prefix="book_name = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookName!=null">
+            when id=#{item.id} then #{item.bookName}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_url = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookUrl!=null">
+            when id=#{item.id} then #{item.bookUrl}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_level = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookLevel!=null">
+            when id=#{item.id} then #{item.bookLevel}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_img_url = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookImgUrl!=null">
+            when id=#{item.id} then #{item.bookImgUrl}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_user = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookUser!=null">
+            when id=#{item.id} then #{item.bookUser}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="modify_date = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.modifyDate!=null">
+            when id=#{item.id} then #{item.modifyDate}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_type = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookType!=null">
+            when id=#{item.id} then #{item.bookType}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="book_describe = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.bookDescribe!=null">
+            when id=#{item.id} then #{item.bookDescribe}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="my_book_url = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.myBookUrl!=null">
+            when id=#{item.id} then #{item.myBookUrl}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="my_book_img_url = case" suffix="end,">
+        <foreach collection="list" item="item">
+          <if test="item.myBookImgUrl!=null">
+            when id=#{item.id} then #{item.myBookImgUrl}
+          </if>
+        </foreach>
+      </trim>
+    </trim>
+    <where>
+      <foreach collection="list" separator="or" item="item">
+        id = #{item.id}
+      </foreach>
+    </where>
+  </update>
+  <select id="selectIdByLevel" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+    select id from t_book where book_level = #{level,jdbcType=INTEGER}
+  </select>
+  <select id="selectIdByLevelAndType" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+    select id from t_book where book_level = #{level,jdbcType=INTEGER} AND book_type = #{type,jdbcType=INTEGER}
+  </select>
+  <!--<select id="selectAllBook" resultType="org.itzxs.entity.Book">
+    select id,book_url as bookUrl from t_book
+  </select>-->
+  <select id="selectAllBook" resultMap="BaseResultMap">
+    select id,book_url as bookUrl from t_book
+  </select>
+</mapper>

@@ -97,10 +97,11 @@
     ORDER BY modify_date DESC
   </select>
   <insert id="insertChapters" parameterType="org.itzxs.entity.Chapter" >
-    <foreach collection="list" item="item" index="index" separator=",">
+
       insert into t_chapter (id, book_id, book_chapter_name,
       book_chapter_content, modify_date)
-      value
+      values
+    <foreach collection="list" item="item" index="index" separator=",">
       (#{item.id,jdbcType=INTEGER}, #{item.bookId,jdbcType=INTEGER}, #{item.bookChapterName,jdbcType=VARCHAR},
       #{item.bookChapterContent,jdbcType=VARCHAR}, #{item.modifyDate,jdbcType=TIMESTAMP})
     </foreach>
