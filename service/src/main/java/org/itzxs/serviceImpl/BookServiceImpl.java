@@ -193,4 +193,9 @@ public class BookServiceImpl implements BookService{
     public List<Book> getBooks(){
         return bookMapper.selectAllBook();
     }
+
+    @Override
+    public List<Book> getBookByCategroy(int categroy){
+        return bookMapper.selectByType(categroy);
+    }
 }

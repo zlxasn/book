@@ -21,4 +21,6 @@ public interface BookService {
     public boolean addBookByModel(String url,int type);
 
     List<Book> getBooks();
+
+    List<Book> getBookByCategroy(int categroy);
 }
