@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by Itzxs on 2018/6/4.
  */
-//@Component
+@Component
 public class UpdateChapters {
 
     @Autowired

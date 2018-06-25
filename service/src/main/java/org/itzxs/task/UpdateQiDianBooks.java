@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by Itzxs on 2018/6/25.
  */
-//@Component
+@Component
 public class UpdateQiDianBooks {
 
     @Autowired

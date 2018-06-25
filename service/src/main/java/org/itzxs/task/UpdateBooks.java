@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * Created by Itzxs on 2018/6/4.
  */
-//@Component
+@Component
 public class UpdateBooks {
 
     @Autowired
