@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:tx="http://www.springframework.org/schema/tx" 
+	xmlns:aop="http://www.springframework.org/schema/aop" 
+	xmlns:context="http://www.springframework.org/schema/context" 
+	xmlns:task="http://www.springframework.org/schema/task" 
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+     	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     	http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.1.xsd 
+     	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+     	http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-3.2.xsd" >
+
+	<context:annotation-config />
+	<context:component-scan base-package="org.itzxs" />
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"
+		name="sqlSessionFactoryName">
+		<property name="dataSource" ref="dataSource" />
+		<!-- mapper scan package -->
+		<property name="mapperLocations" value="classpath*:org/itzxs/mapper/*.xml" />
+	</bean>
+
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<!-- 可通过注解控制事务 -->
+	<tx:annotation-driven />
+
+	<bean id="config" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>classpath:db.properties</value>
+		</property>
+	</bean>
+	<!--tomcat jdbc pool dataSource-->
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+		<!--<property name="poolProperties">-->
+			<!--<bean class="org.apache.tomcat.jdbc.pool.PoolProperties">-->
+				<property name="driverClassName" value="${connection.driverClassName}"/>
+				<property name="jdbcUrl" value="${connection.url}"/>
+				<property name="username" value="${connection.username}"/>
+				<property name="password" value="${connection.password}"/>
+				<property name="readOnly" value="false"></property>
+				<property name="connectionTimeout" value="30000"></property>
+				<property name="idleTimeout" value="600000"></property>
+				<property name="maxLifetime" value="1800000"></property>
+				<property name="maximumPoolSize" value="15"></property>
+				<!--<property name="maxActive" value="${connection.maxActive}"/>
+				<property name="minIdle" value="${connection.minIdle}"/>
+				<property name="initialSize" value="${connection.initialSize}"/>
+				<property name="maxWait" value="${connection.maxWait}"/>
+				<property name="testWhileIdle" value="true"/>
+				<property name="testOnBorrow" value="true"/>
+				<property name="testOnReturn" value="false"/>
+				<property name="validationQuery" value="SELECT 1"/>
+				<property name="timeBetweenEvictionRunsMillis" value="30000"/>
+				<property name="minEvictableIdleTimeMillis" value="30000"/>
+				<property name="removeAbandoned" value="true"/>
+				<property name="removeAbandonedTimeout" value="60"/>
+				<property name="logAbandoned" value="false"/>
+				&lt;!&ndash;tomcat jdbc pool Enhanced Attributes&ndash;&gt;
+				<property name="jmxEnabled" value="true"/>
+				<property name="validationInterval" value="30000"/>
+				<property name="jdbcInterceptors" value="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"/>-->
+			<!--</bean>-->
+		<!--</property>-->
+	</bean>
+	<!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/employee?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8" />
+        <property name="username" value="root" />
+        <property name="password" value="root" />
+    </bean>-->
+
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="org.itzxs.dao" />
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryName" />
+	</bean>
+
+    <!--<task:scheduled-tasks>-->
+        <!--<task:scheduled ref="activeCodeTask" method="activeCode" cron="0 0 23 * * ?"/>-->
+    <!--</task:scheduled-tasks>-->
+    <task:annotation-driven />
+    
+    <!-- (事务管理)transaction manager, use JtaTransactionManager for global tx -->
+	<!-- 配置事务通知属性 -->  
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">  
+        <!-- 定义事务传播属性 -->  
+        <tx:attributes>  
+             <tx:method name="insert*" propagation="REQUIRED" />
+             <tx:method name="update*" propagation="REQUIRED" />
+             <tx:method name="edit*" propagation="REQUIRED" />
+             <tx:method name="save*" propagation="REQUIRED" />
+             <tx:method name="add*" propagation="REQUIRED" />
+             <tx:method name="new*" propagation="REQUIRED" />
+             <tx:method name="set*" propagation="REQUIRED" />
+             <tx:method name="remove*" propagation="REQUIRED" />
+             <tx:method name="delete*" propagation="REQUIRED" />
+             <tx:method name="change*" propagation="REQUIRED" />
+             <tx:method name="get*" propagation="REQUIRED" read-only="true" />
+             <tx:method name="find*" propagation="REQUIRED" read-only="true" />
+             <tx:method name="load*" propagation="REQUIRED" read-only="true" />
+             <tx:method name="select*" propagation="REQUIRED" read-only="true" />
+            <tx:method name="*" propagation="REQUIRED" read-only="false" />
+        </tx:attributes>  
+    </tx:advice>
+
+    <!-- 配置事务切面 -->
+    <aop:config>
+        <aop:pointcut id="serviceOperation"
+            expression="execution(* org.itzxs.service.*.*(..))" />
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceOperation" />
+    </aop:config>
+	<!--<aop:config>
+        <aop:pointcut id="serviceAppOperation"
+            expression="execution(* org.itzxs.service.appAPI.*.*(..))" />
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceAppOperation" />
+    </aop:config>-->
+    
+    <!-- 启用缓存注解功能(请将其配置在Spring主配置文件中) 
+	<cache:annotation-driven cache-manager="cacheManager" />-->
+	<!-- Spring提供的基于的Ehcache实现的缓存管理器 -->
+<!-- 	<bean id="cacheManagerFactory" -->
+<!-- 		class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"> -->
+<!-- 		<property name="configLocation" value="classpath:spring/ehcache.xml" /> -->
+<!-- 	</bean> -->
+<!-- 	<bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager"> -->
+<!-- 		<property name="cacheManager" ref="cacheManagerFactory" /> -->
+<!-- 	</bean> -->
+
+	<!--<task:scheduled-tasks scheduler="scheduler">-->
+		<!--&lt;!&ndash;线路订单检查任务 每15秒执行一次&ndash;&gt;-->
+		<!--<task:scheduled ref="checkOrderTask" method="checkLineOrder" cron="*/15 * * * * ?"/>-->
+		<!--&lt;!&ndash;商城订单检查任务 每天凌晨1点执行一次&ndash;&gt;-->
+		<!--<task:scheduled ref="checkOrderTask" method="checkShopOrder" cron="0 */2 * * * ?"/>-->
+	<!--</task:scheduled-tasks>-->
+
+	<!--<task:scheduler id="scheduler" pool-size="1"/>-->
+</beans>

@@ -4,6 +4,7 @@ import org.itzxs.constant.ParamterConstant;
 import org.itzxs.entity.Book;
 import org.itzxs.entity.UserInformation;
 import org.itzxs.service.BookService;
+import org.itzxs.service.QiDianBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,13 +12,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.validation.Valid;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -30,6 +27,9 @@ public class BookController {
 
     @Autowired
     BookService bookService;
+
+    @Autowired
+    QiDianBookService qiDianBookService;
 
     @RequestMapping("/addBook")
     @ResponseBody
@@ -47,6 +47,7 @@ public class BookController {
         bookService.addBookByModel("http://www.biquge.com.tw/kehuan/",6);
         bookService.addBookByModel("http://www.biquge.com.tw/kongbu/",7);
         bookService.addBookByModel("http://www.biquge.com.tw/quanben/",8);*/
+        qiDianBookService.updateQiDianBook();
         mv.setViewName("/demo");
         return mv;
     }
@@ -78,12 +79,12 @@ public class BookController {
     }
 
     @ResponseBody
-    @RequestMapping("/getBookByCategory")
+    @RequestMapping("/getBooksByCategory")
     public ModelAndView getBookByCategory(HttpServletRequest request){
         ModelAndView mv = new ModelAndView();
-        List<Book> books = bookService.getBookByCategroy(Integer.parseInt(request.getParameter("categroy")));
-        mv.addObject(books);
-        mv.setViewName("/book/categroy.html");
+        /*List<Book> books = bookService.getBookByCategroy(Integer.parseInt(request.getParameter("categroy")));
+        mv.addObject(books);*/
+        mv.setViewName("/book/booksByCategroy.html");
         return mv;
     }
 }

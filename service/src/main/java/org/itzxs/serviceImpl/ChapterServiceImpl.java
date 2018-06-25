@@ -35,16 +35,15 @@ public class ChapterServiceImpl implements ChapterService{
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         System.out.println(simpleDateFormat.format(new Date()));
         List<Book> books = bookMapper.selectAllBook();
-        List<Chapter> chapters = new ArrayList<>();
+        GetChapter getChapter = new GetChapter();
         for (int i= 0;i< books.size();i++) {
-            GetChapter getChapter = new GetChapter();
             List<Chapter> chaptersByNovel = getChapter.getChapter(books.get(i).getId(),books.get(i).getBookUrl());
-            chapters.addAll(chaptersByNovel);
-            chapterMapper.insertChapters(chaptersByNovel);
+            for (Chapter chapter : chaptersByNovel) {
+                chapterMapper.insert(chapter);
+            }
         }
         System.out.println("爬取完毕");
         System.out.println(simpleDateFormat.format(new Date()));
-        System.out.println(chapters.size());
         /*int chapterSize = chapters.size();
         int range = 500;
         int loopTimes = chapterSize / range;

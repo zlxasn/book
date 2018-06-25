@@ -23,6 +23,7 @@
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../util/lib/json_simple.1.1.jar!/" />
           <root url="jar://$MODULE_DIR$/../../../entity/lib/json_simple.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../dao/lib/json_simple.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -99,15 +100,6 @@
     <orderEntry type="module" module-name="entity_main" />
     <orderEntry type="module" module-name="dao_main" />
     <orderEntry type="library" name="Gradle: com.sun.mail:javax.mail:1.5.0" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../dao/lib/json_simple.1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>

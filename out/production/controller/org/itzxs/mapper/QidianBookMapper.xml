@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.itzxs.dao.QidianBookMapper" >
+  <resultMap id="BaseResultMap" type="org.itzxs.entity.QidianBook" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="book_name" property="bookName" jdbcType="VARCHAR" />
+    <result column="book_url" property="bookUrl" jdbcType="VARCHAR" />
+    <result column="book_level" property="bookLevel" jdbcType="INTEGER" />
+    <result column="book_img_url" property="bookImgUrl" jdbcType="VARCHAR" />
+    <result column="book_user" property="bookUser" jdbcType="VARCHAR" />
+    <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
+    <result column="book_type" property="bookType" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="org.itzxs.entity.QidianBook" extends="BaseResultMap" >
+    <result column="book_describe" property="bookDescribe" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, book_name, book_url, book_level, book_img_url, book_user, modify_date, book_type
+  </sql>
+  <sql id="Blob_Column_List" >
+    book_describe
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from cuihua_qidian_book
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from cuihua_qidian_book
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="org.itzxs.entity.QidianBook" >
+    insert into cuihua_qidian_book (id, book_name, book_url, 
+      book_level, book_img_url, book_user, 
+      modify_date, book_type, book_describe
+      )
+    values (#{id,jdbcType=INTEGER}, #{bookName,jdbcType=VARCHAR}, #{bookUrl,jdbcType=VARCHAR}, 
+      #{bookLevel,jdbcType=INTEGER}, #{bookImgUrl,jdbcType=VARCHAR}, #{bookUser,jdbcType=VARCHAR}, 
+      #{modifyDate,jdbcType=TIMESTAMP}, #{bookType,jdbcType=INTEGER}, #{bookDescribe,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="org.itzxs.entity.QidianBook" >
+    insert into cuihua_qidian_book
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="bookName != null" >
+        book_name,
+      </if>
+      <if test="bookUrl != null" >
+        book_url,
+      </if>
+      <if test="bookLevel != null" >
+        book_level,
+      </if>
+      <if test="bookImgUrl != null" >
+        book_img_url,
+      </if>
+      <if test="bookUser != null" >
+        book_user,
+      </if>
+      <if test="modifyDate != null" >
+        modify_date,
+      </if>
+      <if test="bookType != null" >
+        book_type,
+      </if>
+      <if test="bookDescribe != null" >
+        book_describe,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="bookName != null" >
+        #{bookName,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUrl != null" >
+        #{bookUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookLevel != null" >
+        #{bookLevel,jdbcType=INTEGER},
+      </if>
+      <if test="bookImgUrl != null" >
+        #{bookImgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUser != null" >
+        #{bookUser,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyDate != null" >
+        #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookType != null" >
+        #{bookType,jdbcType=INTEGER},
+      </if>
+      <if test="bookDescribe != null" >
+        #{bookDescribe,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.itzxs.entity.QidianBook" >
+    update cuihua_qidian_book
+    <set >
+      <if test="bookName != null" >
+        book_name = #{bookName,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUrl != null" >
+        book_url = #{bookUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookLevel != null" >
+        book_level = #{bookLevel,jdbcType=INTEGER},
+      </if>
+      <if test="bookImgUrl != null" >
+        book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="bookUser != null" >
+        book_user = #{bookUser,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyDate != null" >
+        modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookType != null" >
+        book_type = #{bookType,jdbcType=INTEGER},
+      </if>
+      <if test="bookDescribe != null" >
+        book_describe = #{bookDescribe,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="org.itzxs.entity.QidianBook" >
+    update cuihua_qidian_book
+    set book_name = #{bookName,jdbcType=VARCHAR},
+      book_url = #{bookUrl,jdbcType=VARCHAR},
+      book_level = #{bookLevel,jdbcType=INTEGER},
+      book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
+      book_user = #{bookUser,jdbcType=VARCHAR},
+      modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+      book_type = #{bookType,jdbcType=INTEGER},
+      book_describe = #{bookDescribe,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.itzxs.entity.QidianBook" >
+    update cuihua_qidian_book
+    set book_name = #{bookName,jdbcType=VARCHAR},
+      book_url = #{bookUrl,jdbcType=VARCHAR},
+      book_level = #{bookLevel,jdbcType=INTEGER},
+      book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
+      book_user = #{bookUser,jdbcType=VARCHAR},
+      modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+      book_type = #{bookType,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

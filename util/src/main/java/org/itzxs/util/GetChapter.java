@@ -1,10 +1,12 @@
 package org.itzxs.util;
 
+import org.itzxs.dao.ChapterMapper;
 import org.itzxs.entity.Chapter;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -37,5 +39,10 @@ public class GetChapter {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public static void main(String[] args) {
+        GetChapter getChapter = new GetChapter();
+
     }
 }

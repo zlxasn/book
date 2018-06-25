@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.itzxs.dao.ChapterMapper" >
+  <resultMap id="BaseResultMap" type="org.itzxs.entity.Chapter" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="book_id" property="bookId" jdbcType="INTEGER" />
+    <result column="book_chapter_name" property="bookChapterName" jdbcType="VARCHAR" />
+    <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="org.itzxs.entity.Chapter" extends="BaseResultMap" >
+    <result column="book_chapter_content" property="bookChapterContent" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, book_id, book_chapter_name, modify_date
+  </sql>
+  <sql id="Blob_Column_List" >
+    book_chapter_content
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from t_chapter
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_chapter
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="org.itzxs.entity.Chapter" >
+    insert into t_chapter (id, book_id, book_chapter_name,
+    modify_date, book_chapter_content)
+    values (#{id,jdbcType=INTEGER}, #{bookId,jdbcType=INTEGER}, #{bookChapterName,jdbcType=VARCHAR},
+    #{modifyDate,jdbcType=TIMESTAMP}, #{bookChapterContent,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="org.itzxs.entity.Chapter" >
+    insert into t_chapter
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="bookId != null" >
+        book_id,
+      </if>
+      <if test="bookChapterName != null" >
+        book_chapter_name,
+      </if>
+      <if test="modifyDate != null" >
+        modify_date,
+      </if>
+      <if test="bookChapterContent != null" >
+        book_chapter_content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="bookId != null" >
+        #{bookId,jdbcType=INTEGER},
+      </if>
+      <if test="bookChapterName != null" >
+        #{bookChapterName,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyDate != null" >
+        #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookChapterContent != null" >
+        #{bookChapterContent,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.itzxs.entity.Chapter" >
+    update t_chapter
+    <set >
+      <if test="bookId != null" >
+        book_id = #{bookId,jdbcType=INTEGER},
+      </if>
+      <if test="bookChapterName != null" >
+        book_chapter_name = #{bookChapterName,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyDate != null" >
+        modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookChapterContent != null" >
+        book_chapter_content = #{bookChapterContent,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="org.itzxs.entity.Chapter" >
+    update t_chapter
+    set book_id = #{bookId,jdbcType=INTEGER},
+    book_chapter_name = #{bookChapterName,jdbcType=VARCHAR},
+    modify_date = #{modifyDate,jdbcType=TIMESTAMP},
+    book_chapter_content = #{bookChapterContent,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.itzxs.entity.Chapter" >
+    update t_chapter
+    set book_id = #{bookId,jdbcType=INTEGER},
+      book_chapter_name = #{bookChapterName,jdbcType=VARCHAR},
+      modify_date = #{modifyDate,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectLast" resultMap="BaseResultMap" >
+    select
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from t_chapter
+    ORDER BY modify_date DESC
+  </select>
+  <insert id="insertChapters" parameterType="org.itzxs.entity.Chapter" >
+      insert into t_chapter (id, book_id, book_chapter_name,
+      book_chapter_content, modify_date)
+      values
+    <foreach collection="list" item="item" index="index" separator=",">
+      (#{item.id,jdbcType=INTEGER}, #{item.bookId,jdbcType=INTEGER}, #{item.bookChapterName,jdbcType=VARCHAR},
+      #{item.bookChapterContent,jdbcType=LONGVARCHAR}, #{item.modifyDate,jdbcType=TIMESTAMP})
+    </foreach>
+  </insert>
+  <delete id="deleteAll" parameterType="java.lang.Integer" >
+    delete from t_chapter
+  </delete>
+</mapper>

@@ -26,6 +26,7 @@
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../util/lib/json_simple.1.1.jar!/" />
           <root url="jar://$MODULE_DIR$/../../../entity/lib/json_simple.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../dao/lib/json_simple.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -103,15 +104,6 @@
     <orderEntry type="library" name="Gradle: javax.activation:activation:1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-jdbc:7.0.62" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../dao/lib/json_simple.1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
