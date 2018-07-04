@@ -18,4 +18,5 @@ dependencies {
     compile project(":service")
     compile project(":dao")
     compile files('/lib/json_simple.1.1.jar')
+    compile files('/lib/Qrcode_swetake.jar')
 }

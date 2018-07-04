@@ -113,4 +113,10 @@
       #{item.typeName,jdbcType=VARCHAR}, #{item.typeUrl,jdbcType=VARCHAR}, #{item.typeLevel,jdbcType=INTEGER})
     </foreach>
   </insert>
+  <select id="selectByLevel" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List" />
+    from cuihua_qidian_type
+    where type_level = #{level ,jdbcType=INTEGER}
+  </select>
 </mapper>

@@ -1,5 +1,7 @@
 package org.itzxs.dao;
 
+import org.apache.ibatis.annotations.Param;
+import org.itzxs.entity.PageRespository;
 import org.itzxs.entity.QidianBook;
 
 import java.util.List;
@@ -20,4 +22,6 @@ public interface QidianBookMapper {
     int updateByPrimaryKey(QidianBook record);
 
     int insertBooks(List<QidianBook> qidianBooks);
+
+    List<QidianBook> selectByType(@Param("type") int type, @Param("pageRespository") PageRespository pageRespository);
 }

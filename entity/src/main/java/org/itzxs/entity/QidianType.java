@@ -1,6 +1,10 @@
 package org.itzxs.entity;
 
-public class QidianType {
+import java.io.Serializable;
+
+public class QidianType implements Serializable{
+    private static final long serialVersionUID = -5244288298702801619L;
+
     private Integer id;
 
     private Integer typeCode;

@@ -1,8 +1,12 @@
 package org.itzxs.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class QidianBook {
+public class QidianBook implements Serializable{
+
+    private static final long serialVersionUID = -5244288298702801619L;
+
     private Integer id;
 
     private String bookName;

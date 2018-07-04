@@ -260,7 +260,7 @@
     select id,book_url as bookUrl from t_book
   </select>-->
   <select id="selectAllBook" resultMap="BaseResultMap">
-    select id,book_url as bookUrl from t_book
+    select id,book_url as bookUrl from t_book WHERE my_book_url != '0'
   </select>
   <select id="selectByType" parameterType="java.lang.Integer" resultType="org.itzxs.entity.Book">
     select id, book_name AS bookName, book_url AS bookUrl, , book_img_url AS bookImgUrl, book_user AS bookUser, modify_date AS modifyDate, book_type AS bookType,

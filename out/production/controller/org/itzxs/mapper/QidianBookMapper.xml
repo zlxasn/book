@@ -7,7 +7,7 @@
     <result column="book_url" property="bookUrl" jdbcType="VARCHAR" />
     <result column="book_level" property="bookLevel" jdbcType="INTEGER" />
     <result column="book_img_url" property="bookImgUrl" jdbcType="VARCHAR" />
-    <result column="book_user" property="bookUser" jdbcType="VARCHAR" />
+    <result column="book_author" property="bookAuthor" jdbcType="VARCHAR" />
     <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
     <result column="book_type" property="bookType" jdbcType="INTEGER" />
   </resultMap>
@@ -15,10 +15,21 @@
     <result column="book_describe" property="bookDescribe" jdbcType="LONGVARCHAR" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, book_name, book_url, book_level, book_img_url, book_user, modify_date, book_type
+    id, book_name, book_url, book_level, book_img_url, book_author, modify_date, book_type
   </sql>
   <sql id="Blob_Column_List" >
     book_describe
+  </sql>
+  <sql id="qidianBook" >
+    id as id,
+    book_name as bookName,
+    book_url as bookUrl,
+    book_level as bookLevel,
+    book_img_url as bookImgUrl,
+    book_author as bookAuthor,
+    modify_date as modifyDate,
+    book_type as bookType,
+    book_describe as bookDescribe
   </sql>
   <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
     select 
@@ -34,11 +45,11 @@
   </delete>
   <insert id="insert" parameterType="org.itzxs.entity.QidianBook" >
     insert into cuihua_qidian_book (id, book_name, book_url, 
-      book_level, book_img_url, book_user, 
+      book_level, book_img_url, book_author, 
       modify_date, book_type, book_describe
       )
     values (#{id,jdbcType=INTEGER}, #{bookName,jdbcType=VARCHAR}, #{bookUrl,jdbcType=VARCHAR}, 
-      #{bookLevel,jdbcType=INTEGER}, #{bookImgUrl,jdbcType=VARCHAR}, #{bookUser,jdbcType=VARCHAR}, 
+      #{bookLevel,jdbcType=INTEGER}, #{bookImgUrl,jdbcType=VARCHAR}, #{bookAuthor,jdbcType=VARCHAR}, 
       #{modifyDate,jdbcType=TIMESTAMP}, #{bookType,jdbcType=INTEGER}, #{bookDescribe,jdbcType=LONGVARCHAR}
       )
   </insert>
@@ -60,8 +71,8 @@
       <if test="bookImgUrl != null" >
         book_img_url,
       </if>
-      <if test="bookUser != null" >
-        book_user,
+      <if test="bookAuthor != null" >
+        book_author,
       </if>
       <if test="modifyDate != null" >
         modify_date,
@@ -89,8 +100,8 @@
       <if test="bookImgUrl != null" >
         #{bookImgUrl,jdbcType=VARCHAR},
       </if>
-      <if test="bookUser != null" >
-        #{bookUser,jdbcType=VARCHAR},
+      <if test="bookAuthor != null" >
+        #{bookAuthor,jdbcType=VARCHAR},
       </if>
       <if test="modifyDate != null" >
         #{modifyDate,jdbcType=TIMESTAMP},
@@ -118,8 +129,8 @@
       <if test="bookImgUrl != null" >
         book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
       </if>
-      <if test="bookUser != null" >
-        book_user = #{bookUser,jdbcType=VARCHAR},
+      <if test="bookAuthor != null" >
+        book_author = #{bookAuthor,jdbcType=VARCHAR},
       </if>
       <if test="modifyDate != null" >
         modify_date = #{modifyDate,jdbcType=TIMESTAMP},
@@ -139,7 +150,7 @@
       book_url = #{bookUrl,jdbcType=VARCHAR},
       book_level = #{bookLevel,jdbcType=INTEGER},
       book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
-      book_user = #{bookUser,jdbcType=VARCHAR},
+      book_author = #{bookAuthor,jdbcType=VARCHAR},
       modify_date = #{modifyDate,jdbcType=TIMESTAMP},
       book_type = #{bookType,jdbcType=INTEGER},
       book_describe = #{bookDescribe,jdbcType=LONGVARCHAR}
@@ -151,9 +162,30 @@
       book_url = #{bookUrl,jdbcType=VARCHAR},
       book_level = #{bookLevel,jdbcType=INTEGER},
       book_img_url = #{bookImgUrl,jdbcType=VARCHAR},
-      book_user = #{bookUser,jdbcType=VARCHAR},
+      book_author = #{bookAuthor,jdbcType=VARCHAR},
       modify_date = #{modifyDate,jdbcType=TIMESTAMP},
       book_type = #{bookType,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <insert id="insertBooks" parameterType="org.itzxs.entity.QidianBook" >
+    insert into cuihua_qidian_book (id, book_name, book_url,
+    book_level, book_img_url, book_author,
+    modify_date, book_type, book_describe
+    )
+    values
+    <foreach collection="list" item="item" index="index" separator=",">
+      (#{item.id,jdbcType=INTEGER}, #{item.bookName,jdbcType=VARCHAR}, #{item.bookUrl,jdbcType=VARCHAR},
+      #{item.bookLevel,jdbcType=INTEGER}, #{item.bookImgUrl,jdbcType=VARCHAR}, #{item.bookAuthor,jdbcType=VARCHAR},
+      #{item.modifyDate,jdbcType=TIMESTAMP}, #{item.bookType,jdbcType=INTEGER}, #{item.bookDescribe,jdbcType=LONGVARCHAR}
+      )
+    </foreach>
+  </insert>
+  <select id="selectByType" resultType="org.itzxs.entity.QidianBook" >
+    select
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from cuihua_qidian_book
+    where book_type = #{type,jdbcType=INTEGER} limit #{pageRespository.rowIndex},#{pageRespository.pageSize}
+  </select>
 </mapper>

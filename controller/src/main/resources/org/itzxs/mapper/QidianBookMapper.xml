@@ -20,6 +20,17 @@
   <sql id="Blob_Column_List" >
     book_describe
   </sql>
+  <sql id="qidianBook" >
+    id as id,
+    book_name as bookName,
+    book_url as bookUrl,
+    book_level as bookLevel,
+    book_img_url as bookImgUrl,
+    book_author as bookAuthor,
+    modify_date as modifyDate,
+    book_type as bookType,
+    book_describe as bookDescribe
+  </sql>
   <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
@@ -169,4 +180,10 @@
       )
     </foreach>
   </insert>
+  <select id="selectByType" resultType="org.itzxs.entity.QidianBook" >
+    select
+    <include refid="qidianBook" />
+    from cuihua_qidian_book
+    where book_type = #{type,jdbcType=INTEGER} limit #{pageRespository.rowIndex},#{pageRespository.pageSize}
+  </select>
 </mapper>

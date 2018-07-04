@@ -1,8 +1,11 @@
 package org.itzxs.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class UserInformation {
+public class UserInformation implements Serializable{
+    private static final long serialVersionUID = -5244288298702801619L;
+
     private int userId;
 
     private String userName;

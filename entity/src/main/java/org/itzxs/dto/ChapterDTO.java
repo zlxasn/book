@@ -1,9 +1,13 @@
 package org.itzxs.dto;
 
+import java.io.Serializable;
+
 /**
  * Created by Itzxs on 2018/4/20.
  */
-public class ChapterDTO {
+public class ChapterDTO implements Serializable{
+    private static final long serialVersionUID = -5244288298702801619L;
+
     private String title;
     private String url;
 

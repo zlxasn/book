@@ -1,6 +1,10 @@
 package org.itzxs.entity;
 
-public class UserLogin {
+import java.io.Serializable;
+
+public class UserLogin implements Serializable{
+    private static final long serialVersionUID = -5244288298702801619L;
+
     private String userId;
 
     private String userName;

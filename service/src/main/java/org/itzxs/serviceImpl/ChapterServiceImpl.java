@@ -31,7 +31,7 @@ public class ChapterServiceImpl implements ChapterService{
 
     @Override
     public boolean updateChapter(){
-        chapterMapper.deleteAll();
+//        chapterMapper.deleteAll();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         System.out.println(simpleDateFormat.format(new Date()));
         List<Book> books = bookMapper.selectAllBook();

@@ -1,8 +1,10 @@
 package org.itzxs.controller;
 
 import org.itzxs.constant.ParamterConstant;
-import org.itzxs.entity.Book;
+import org.itzxs.entity.PageRespository;
+import org.itzxs.entity.QidianBook;
 import org.itzxs.entity.UserInformation;
+import org.itzxs.result.JsonResult;
 import org.itzxs.service.BookService;
 import org.itzxs.service.QiDianBookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -47,17 +50,21 @@ public class BookController {
         bookService.addBookByModel("http://www.biquge.com.tw/kehuan/",6);
         bookService.addBookByModel("http://www.biquge.com.tw/kongbu/",7);
         bookService.addBookByModel("http://www.biquge.com.tw/quanben/",8);*/
-        qiDianBookService.updateQiDianBook();
         mv.setViewName("/demo");
         return mv;
     }
 
-    @RequestMapping("/bookList")
+    @RequestMapping("/bookListTest")
     @ResponseBody
-    public ModelAndView bookList(){
-        ModelAndView mv = new ModelAndView();
-        mv.setViewName("/bookList");
-        return mv;
+    public JsonResult bookList(HttpServletRequest httpServletRequest){
+        Integer type = Integer.parseInt(httpServletRequest.getParameter("type"));
+        Integer rowIndex = Integer.parseInt(httpServletRequest.getParameter("rowIndex"));
+        Integer pageSize = Integer.parseInt(httpServletRequest.getParameter("pageSize"));
+        PageRespository pageRespository = new PageRespository();
+        pageRespository.setRowIndex(rowIndex);
+        pageRespository.setPageSize(pageSize);
+        List<QidianBook> qidianBooks = qiDianBookService.getQiDianBooks(type,pageRespository);
+        return new JsonResult(1,JsonResult.SUCCESS,qidianBooks);
     }
 
     @ResponseBody

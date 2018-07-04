@@ -14,7 +14,7 @@ function login(){
         });
         $.post('/user/f_login',data,function(data){
             if(data.code == 1){
-                document.location.href = "/book/index.html";
+                document.location.href = "/book/bookList.html";
             } else {
                 $(".error-mess").show();
                 $("#error-message").html( data.msg);

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by Itzxs on 2018/6/25.
  */
-@Component
+//@Component
 public class UpdateQiDianBooks {
 
     @Autowired
@@ -19,6 +19,6 @@ public class UpdateQiDianBooks {
      */
     @Scheduled(fixedRate = 24 * 60 * 60 * 1000)
     public void fixedUpdateQiDianBooks() {
-        qiDianBookService.updateQiDianBook();
+        qiDianBookService.loadQiDianBook();
     }
 }
