@@ -2,134 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a25c27-8c77-4dc9-a47d-cbcbd3b7c360" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/libs/Qrcode_swetake.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_1_12_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_keyvalue_1_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_redis_1_7_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_support_4_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_oxm_4_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_4_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__redis_clients_jedis_2_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/resources/redis.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/book/bookList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/PageRespository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/src/main/java/org/itzxs/config/RedisCacheConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/MakeQRCode.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_support_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-4.0.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-4.0.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-4.0.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-support-4.0.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-4.0.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-4.0.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/spring-tx-4.0.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/json_simple-1.1.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.5/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/BookController.class" afterPath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/UserController.class" afterPath="$PROJECT_DIR$/controller/build/classes/main/org/itzxs/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/controller/build/libs/controller-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/BookController.class" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/UserController.class" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-entity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-entity-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-util-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/lib/org.itzxs-util-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/classes/main/org/itzxs/dao/QidianBookMapper.class" afterPath="$PROJECT_DIR$/dao/build/classes/main/org/itzxs/dao/QidianBookMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/dao/build/libs/dao-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/dto/ChapterDTO.class" afterPath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/dto/ChapterDTO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/Book.class" afterPath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/Chapter.class" afterPath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/Chapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/QidianBook.class" afterPath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/QidianBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/QidianType.class" afterPath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/QidianType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/UserInformation.class" afterPath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/UserInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/UserLogin.class" afterPath="$PROJECT_DIR$/entity/build/classes/main/org/itzxs/entity/UserLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/entity/build/libs/entity-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/service/QiDianBookService.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/service/QiDianBookService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/serviceImpl/BookServiceImpl.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/serviceImpl/BookServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/serviceImpl/ChapterServiceImpl.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/serviceImpl/ChapterServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/serviceImpl/QiDianBookServiceImpl.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/serviceImpl/QiDianBookServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/task/UpdateBooks.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/task/UpdateBooks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/task/UpdateChapters.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/task/UpdateChapters.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/task/UpdateQiDianBooks.class" afterPath="$PROJECT_DIR$/service/build/classes/main/org/itzxs/task/UpdateQiDianBooks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/service/build/libs/service-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/constant/ParamterConstant.class" afterPath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/constant/ParamterConstant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/exception/ServiceExceptionEnum.class" afterPath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/exception/ServiceExceptionEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/util/GetBQGNovel.class" afterPath="$PROJECT_DIR$/util/build/classes/main/org/itzxs/util/GetBQGNovel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/util/build/libs/util-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___controller_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___controller_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___dao_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___dao_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___entity_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___entity_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___service_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___service_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___util_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_itzxs___util_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/controller/controller_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/controller/controller_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/controller/controller_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/controller/controller_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dao/dao_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/dao/dao_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dao/dao_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/dao/dao_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/entity/entity_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/entity/entity_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/entity/entity_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/entity/entity_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build.gradle" afterPath="$PROJECT_DIR$/controller/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/QidianBookMapper.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/org/itzxs/mapper/QidianBookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/WEB-INF/classes/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/js/book/book.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/js/book/book.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/js/user/login.js" afterPath="$PROJECT_DIR$/controller/build/libs/exploded/controller-1.0-SNAPSHOT.war/js/user/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/db.properties" afterPath="$PROJECT_DIR$/controller/build/resources/main/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/QidianBookMapper.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/org/itzxs/mapper/QidianBookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/resources/main/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/controller/build/resources/main/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/controller/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/QidianBookMapper.xml" afterPath="$PROJECT_DIR$/controller/src/main/resources/org/itzxs/mapper/QidianBookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/resources/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/controller/src/main/resources/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/js/book/book.js" afterPath="$PROJECT_DIR$/controller/src/main/webapp/js/book/book.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/js/user/login.js" afterPath="$PROJECT_DIR$/controller/src/main/webapp/js/user/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/QidianBookMapper.java" afterPath="$PROJECT_DIR$/dao/src/main/java/org/itzxs/dao/QidianBookMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/dto/ChapterDTO.java" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/dto/ChapterDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Book.java" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Chapter.java" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/Chapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/QidianBook.java" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/QidianBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/QidianType.java" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/QidianType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/UserInformation.java" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/UserInformation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/UserLogin.java" afterPath="$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/UserLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/controller/db.properties" afterPath="$PROJECT_DIR$/out/production/controller/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/controller/org/itzxs/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/out/production/controller/org/itzxs/mapper/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/controller/org/itzxs/mapper/QidianBookMapper.xml" afterPath="$PROJECT_DIR$/out/production/controller/org/itzxs/mapper/QidianBookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/controller/org/itzxs/mapper/QidianTypeMapper.xml" afterPath="$PROJECT_DIR$/out/production/controller/org/itzxs/mapper/QidianTypeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/controller/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/out/production/controller/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/org/itzxs/service/QiDianBookService.java" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/service/QiDianBookService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/ChapterServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/ChapterServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/QiDianBookServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/QiDianBookServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateBooks.java" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateBooks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateChapters.java" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateChapters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateQiDianBooks.java" afterPath="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateQiDianBooks.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_2_6_RELEASE.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -270,8 +144,8 @@
       <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="65" column="66" lean-forward="true" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+            <state relative-caret-position="331">
+              <caret line="65" column="63" lean-forward="false" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -287,11 +161,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QiDianBookServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QiDianBookServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/QiDianBookServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="151">
+              <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1702,7 +1586,6 @@
         <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateBooks.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateQiDianTypes.java" />
         <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/MyTest.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/task/UpdateQiDianBooks.java" />
         <option value="$PROJECT_DIR$/controller/src/main/resources/redis.porperties" />
         <option value="$PROJECT_DIR$/controller/src/main/resources/redis.properties" />
@@ -1731,6 +1614,7 @@
         <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/util/RedisCacheConfig.java" />
         <option value="$PROJECT_DIR$/util/src/main/java/org/itzxs/config/RedisCacheConfig.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/QiDianBookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/resources/db.properties" />
       </list>
     </option>
   </component>
@@ -2103,6 +1987,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2802,15 +2690,15 @@
       <workItem from="1530524425431" duration="165000" />
       <workItem from="1530583142695" duration="12266000" />
       <workItem from="1530602006268" duration="5392000" />
-      <workItem from="1530668382448" duration="3583000" />
+      <workItem from="1530668382448" duration="4483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321362000" />
+    <option name="totallyTimeSpent" value="322262000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2968,13 +2856,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/resources/redis.porperties" />
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.7.2.RELEASE/2d6811502147f0d273d9ba7ea782f45f7d29fae0/spring-data-redis-1.7.2.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -3263,10 +3144,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/QidianBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/org/itzxs/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="65" column="66" lean-forward="true" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+        <state relative-caret-position="331">
+          <caret line="65" column="63" lean-forward="false" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -3279,18 +3168,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/org/itzxs/entity/QidianBook.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/QiDianBookServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="151">
+          <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/org/itzxs/serviceImpl/QiDianBookServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
